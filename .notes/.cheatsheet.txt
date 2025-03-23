@@ -1,0 +1,92 @@
+echo "file" >> .gitignore 		<--add to git ignore
+echo "rm -r" >> .cheatsheet 	<--add to cheatsheet 
+
+cat .gitignore				<--display contents of txt file
+cat >> existingfile.txt			<--Append txt file; Ctrl+D saves 
+
+cat file1.txt file2.txt > combined.txt	<--combine files
+cat -n myfile.txt			<--number lines of a file
+cat > newfile.txt			<--create a file  
+
+cat .cheatsheet 
+
+~/.cheatsheet
+nano ~/.cheatsheet 			<--open file in terminal 
+code ~/.cheatsheet			<--open file in VSC
+open ~/.cheatsheet			<--open file in Finder
+
+git status // git add [file] // git commit -m "message" // git push [often other text] 
+
+git add . 				<---stage entire directory 
+git add -A				<---stage entire repository 
+git rm -r --cached workspace		<--stop tracking folder 
+
+cd — pwd — ls 				<--go to, where am I, what's here 
+mkdir — rmdir — rm -r 			<--make directory, remove it empty, remove full 
+rm — cp 				<--remove file, copy move file
+
+cp -r /path/to/source/directory/* .	<--copy outside directory in
+
+~USE THIS WHEN PWD NEW PROJECT DIRECTORY -- copies over contents only
+cp -R /Users/seanivore/Development/_ai.resources/repo-starter/. .
+
+====Configure Terminal====
+
+nano ~/.zshrc 				<--open Z Shell config 
+source ~/.zshrc				<--after changes reboot 
+
+Checking Bin, Adding Access; Remember No Hombrew Install via pip, python.
+
+echo $PATH 				<-- Check if `/usr/local/bin` is in your PATH
+export PATH=$PATH:/usr/local/bin 	<--Add `/usr/local/bin` in ~/.zshrc if it's missing
+
+export OPENAI_API_KEY=your-key		<--add key to env 
+echo $OPENAI_API_KEY			<--print key from env 
+
+alias ll="ls -la"			<--Aliasing Commands example
+alias gs="git status"			<--Aliasing Commands example
+
+brew update 		<--check in terminal app versions
+brew upgrade 		<--upgrades all that are listed 
+brew cleanup 		<--after upgrade to remove old files
+
+====NEW PROJECT FLOW====
+
+mkdir ~/Dev/new-project		<--make new directory 
+cd ~/Dev/new-project		<--go to directory 
+git init			<--activate git 
+touch .gitignore		<--create .gitignore 
+echo ".env" >> .gitignore	<--create and add first thing
+git add . 			<--add all files to staging
+git commit -m "Initial Commit"	<--commit first push
+
+gh auth status 			<--make sure you're logged into github
+gh auth login			<--login if you're not
+
+--> Run in project directory to make a public repo linked to current project
+
+gh repo create <repo-project-name> --public --source=. --remote=origin 
+
+--> Add the remote repository
+git branch 									<--check you're in the right place
+git push -u origin <repo-project-name> 		<--push command that lets you just do git push after
+
+git branch 			<--check you're in the right place
+
+git push -u origin <repo-project-name> 	<--push command that lets you just do git push after
+
+Writing Proper Commit Messages
+<type>: <summary>
+<details>
+refactor: Code changes, feat: New feature, docs: Documentation updates, chore: Maintenance tasks
+
+Special Scripts 
+# Create script file named how you run it:  
+touch ~/bin/project-tree.sh
+# Open that file in your editor: 
+nano ~/bin/project-tree.sh
+# Paste the Script in the editor file: 
+[it should have #!/bin/bash at the top]
+# Make the Script Executable: 
+chmod +x ~/bin/project-tree.sh 
+# Now run the script [example] "project-tree.sh"

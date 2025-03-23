@@ -1,0 +1,123 @@
+{
+  "mcpServers": {
+    "Chain-of-Thought Tool for Sequential-Thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "GitHub Access": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "token-here"
+      }
+    },
+    "MacOS File System Access": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/seanivore/Desktop",
+        "/Users/seanivore/Library/Application Support/Claude",
+        "/Users/seanivore/Development",
+        "/Users/seanivore/Dropbox/Workspaces"
+      ]
+    },
+    "Puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "Persistant Vector Graph Memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "Run Terminal Commands": {
+      "command": "node",
+      "args": [
+        "/Users/seanivore/Development/terminal/dist/index.js"
+      ],
+      "env": {
+        "PERMISSION_REQUIRED": "true"
+      }
+    },
+    "Robust Web Browser": {
+      "command": "uv",
+      "args": [
+        "tool",
+        "run",
+        "web-browser-mcp-server"
+      ],
+      "env": {
+        "REQUEST_TIMEOUT": "30"
+      }
+    },
+    "Fetch Scraper": {
+      "command": "node",
+      "args": [
+        "/Users/seanivore/Development/fetch-mcp/dist/index.js"
+      ]
+    },
+    "LLM Context Server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "llm-context",
+        "lc-mcp"
+      ]
+    },
+    "Convert Markdown to PDF": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/seanivore/Development/md-pdf-mcp",
+        "run",
+        "md-pdf-mcp"
+      ]
+    },
+    "The Pensieve RAG MCP Project": {
+      "command": "node",
+      "args": [
+        "/Users/seanivore/Development/the-pensieve/build/index.js"
+      ]
+    },
+    "Perplexity": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-perplexity"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "key-here"
+      }
+    },
+    "Git Repository Access": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-git",
+        "--repository",
+        "/Users/seanivore/Development/"
+      ]
+    },
+    "Get YouTube Transcript from Video URL": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@kimtaeyoon83/mcp-server-youtube-transcript",
+        "--config",
+        "\"{}\""
+      ]
+    }
+  }
+}
