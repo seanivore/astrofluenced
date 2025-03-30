@@ -1,0 +1,1425 @@
+> ~/Development/astrofluenced > ptree                              24s 06:51:04
+.
+├── README.md
+├── _config.yml
+├── about
+│   ├── blog
+│   │   └── today-astrology-chat-gpt-author.html
+│   ├── contact.html
+│   ├── legal-privacy-terms.html
+│   ├── seanivore-house-llc-brands.html
+│   └── seanivore-house-llc-brands.html.bak
+├── add_zodiac_headers.py
+├── assets
+│   ├── downloaded
+│   │   ├── backup_images
+│   │   │   ├── gemini_backup.webp
+│   │   │   ├── leo_backup.webp
+│   │   │   ├── sagittarius_backup.webp
+│   │   │   └── taurus_backup.webp
+│   │   ├── css
+│   │   │   └── august-style.webflow.be7dfad52.min.css
+│   │   ├── found_images
+│   │   │   ├── gemini_240226-1g-3-gemini.webp
+│   │   │   ├── leo_240212-3L-5-leo.webp
+│   │   │   ├── sagittarius_240212-3L-9-sagittarius.webp
+│   │   │   └── taurus_240226-1g-2-taurus.webp
+│   │   ├── images
+│   │   │   ├── 643d81cd5f1dd3c0132c541a_logo-favicon-glamazon.png
+│   │   │   ├── 643d81d1233ed3a19191b232_logo-webclip-glamazon.png
+│   │   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art-p-1080.webp
+│   │   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art-p-1600.webp
+│   │   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art-p-2000.webp
+│   │   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art-p-2600.webp
+│   │   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art-p-500.webp
+│   │   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art-p-800.webp
+│   │   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art.webp
+│   │   │   ├── 64ca4f50200bbcbfa53d8330_daily-outfit-wear-today-recommendations-astrology-reading-p-1080.webp
+│   │   │   ├── 64ca4f50200bbcbfa53d8330_daily-outfit-wear-today-recommendations-astrology-reading-p-500.webp
+│   │   │   ├── 64ca4f50200bbcbfa53d8330_daily-outfit-wear-today-recommendations-astrology-reading-p-800.webp
+│   │   │   ├── 64ca4f50200bbcbfa53d8330_daily-outfit-wear-today-recommendations-astrology-reading.webp
+│   │   │   ├── 64ca4f502bfb5684e0a441f8_week-start-astrology-reading-updated-tips-activities-p-1080.webp
+│   │   │   ├── 64ca4f502bfb5684e0a441f8_week-start-astrology-reading-updated-tips-activities-p-500.webp
+│   │   │   ├── 64ca4f502bfb5684e0a441f8_week-start-astrology-reading-updated-tips-activities-p-800.webp
+│   │   │   ├── 64ca4f502bfb5684e0a441f8_week-start-astrology-reading-updated-tips-activities.webp
+│   │   │   ├── 64ca4f50349e96da13d06171_daily-horoscope-astrology-reading-updated-p-1080.webp
+│   │   │   ├── 64ca4f50349e96da13d06171_daily-horoscope-astrology-reading-updated-p-500.webp
+│   │   │   ├── 64ca4f50349e96da13d06171_daily-horoscope-astrology-reading-updated-p-800.webp
+│   │   │   ├── 64ca4f50349e96da13d06171_daily-horoscope-astrology-reading-updated.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe32_daily-venus-mars-influence-astrology-reading-updated-p-1080.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe32_daily-venus-mars-influence-astrology-reading-updated-p-500.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe32_daily-venus-mars-influence-astrology-reading-updated-p-800.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe32_daily-venus-mars-influence-astrology-reading-updated.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe5f_weekend-astrology-reading-updated-tips-activities-p-1080.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe5f_weekend-astrology-reading-updated-tips-activities-p-500.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe5f_weekend-astrology-reading-updated-tips-activities-p-800.webp
+│   │   │   ├── 64ca4f506dc4e44b54fefe5f_weekend-astrology-reading-updated-tips-activities.webp
+│   │   │   ├── 64ca4f508c50385b0a339129_daily-career-outlook-astrology-reading-updated-p-1080.webp
+│   │   │   ├── 64ca4f508c50385b0a339129_daily-career-outlook-astrology-reading-updated-p-500.webp
+│   │   │   ├── 64ca4f508c50385b0a339129_daily-career-outlook-astrology-reading-updated-p-800.webp
+│   │   │   ├── 64ca4f508c50385b0a339129_daily-career-outlook-astrology-reading-updated.webp
+│   │   │   ├── 64ca4f50d32cd5f640c39c40_daily-love-outlook-astrology-reading-updated-p-1080.webp
+│   │   │   ├── 64ca4f50d32cd5f640c39c40_daily-love-outlook-astrology-reading-updated-p-500.webp
+│   │   │   ├── 64ca4f50d32cd5f640c39c40_daily-love-outlook-astrology-reading-updated-p-800.webp
+│   │   │   ├── 64ca4f50d32cd5f640c39c40_daily-love-outlook-astrology-reading-updated.webp
+│   │   │   ├── 64ca4f50e2148bffbf55b1fc_week-middle-get-through-astrology-reading-updated-tips-activities-p-1080.webp
+│   │   │   ├── 64ca4f50e2148bffbf55b1fc_week-middle-get-through-astrology-reading-updated-tips-activities-p-500.webp
+│   │   │   ├── 64ca4f50e2148bffbf55b1fc_week-middle-get-through-astrology-reading-updated-tips-activities-p-800.webp
+│   │   │   ├── 64ca4f50e2148bffbf55b1fc_week-middle-get-through-astrology-reading-updated-tips-activities.webp
+│   │   │   ├── 64db8d1659fa7d8ee204648b_thumb.rael-fratello-3d-printed-mud-structures-southwestern-usa-2020.webp
+│   │   │   ├── 64db8d1659fa7d8ee2046496_full.rael-fratello-3d-printed-mud-structures-southwestern-usa-2020.webp
+│   │   │   ├── 64db8d1659fa7d8ee204649a_full.olkowski-integral-urban-house-sustainable-architecture-berkeley-usa-1973.webp
+│   │   │   ├── 64db8d1659fa7d8ee204649e_full.bill-dunster-bedzed-eco-friendly-architecture-london-uk-2002.webp
+│   │   │   ├── 64db8d18aa7753db8385cf73_thumb.renzo-piano-ca-academy-architecture-living-roof-sf-usa-2008.webp
+│   │   │   ├── 64db8d18aa7753db8385cf8d_full.pawel-lipinski-mateusz-frankowski-mashambas-architecture-agriculture-africa-2017.webp
+│   │   │   ├── 64db8d18aa7753db8385cf90_full.richard-rogers-helicon-building-architecture-with-integrated-greenery-london-uk-1984.webp
+│   │   │   ├── 64db8d18aa7753db8385cf94_full.renzo-piano-ca-academy-architecture-living-roof-sf-usa-2008.webp
+│   │   │   ├── 64db8d1a2546910c930be35b_full.henry-dreyfuss-model-phonograph-wood-metal-camden-usa-1925.webp
+│   │   │   ├── 64db8d1a2546910c930be360_full.eliot-noyes-selectric-typewriter-plastic-metal-new-york-usa-1961.webp
+│   │   │   ├── 64db8d1a2546910c930be363_full.apple-design-team-apple-macintosh-portable-plastic-electronics-cupertino-usa-1989.webp
+│   │   │   ├── 64db8d1a2546910c930be367_thumb.eliot-noyes-selectric-typewriter-plastic-metal-new-york-usa-1961.webp
+│   │   │   ├── 64db8d1cee99da927457fd70_thumb.jeff-koons-michael-jackson-bubbles-porcelain-new-york-usa-1988.webp
+│   │   │   ├── 64db8d1cee99da927457fd74_full.robert-venturi-complexity-contradiction-architecture-book-philadelphia-usa-1967.webp
+│   │   │   ├── 64db8d1cee99da927457fd79_full.yinka-shonibare-diary-victorian-dandy-photo-series-london-uk-1997.webp
+│   │   │   ├── 64db8d1cee99da927457fd7c_full.jeff-koons-michael-jackson-bubbles-porcelain-new-york-usa-1988.webp
+│   │   │   ├── 64db8d1e114038d73389b239_full.le-corbusier-unite-dhabitation-reinforced-concrete-marseille-france-1952.webp
+│   │   │   ├── 64db8d1e114038d73389b23c_thumb.le-corbusier-unite-dhabitation-reinforced-concrete-marseille-france-1952.webp
+│   │   │   ├── 64db8d1e114038d73389b23f_full.erno-goldfinger-trellick-tower-reinforced-concrete-london-uk-1980_copy.webp
+│   │   │   ├── 64db8d1e114038d73389b242_full.kallmann-mckinnell-knowles-boston-city-hall-concrete-boston-usa-1968.webp
+│   │   │   ├── 64db8d1fd99e08ea2d63b0fa_full.hans-j-wegner-ch24-wishbone-chair-wood-natural-cord-denmark-1950.webp
+│   │   │   ├── 64db8d1fd99e08ea2d63b0fe_thumb.hans-j-wegner-ch24-wishbone-chair-wood-natural-cord-denmark-1950.webp
+│   │   │   ├── 64db8d1fd99e08ea2d63b102_full.eero-aarnio-puppy-polyethylene-plastic-finland-1987.webp
+│   │   │   ├── 64db8d1fd99e08ea2d63b106_full.alvar-aalto-savoy-vase-blown-glass-finland-1936.webp
+│   │   │   ├── 64db8d21477fe9209e57aa5e_full.ludwig-mies-van-der-rohe-barcelona-chair-steel-spain-1937.webp
+│   │   │   ├── 64db8d21477fe9209e57aa62_thumb.marcel-breuer-wassily-chair-tubular-steel-fabric-dessau-germany-1925.webp
+│   │   │   ├── 64db8d21477fe9209e57aa66_full.walter-gropius-bauhaus-dessau-building-architecture-dessau-germany-1926.webp
+│   │   │   ├── 64db8d21477fe9209e57aa6a_full.marcel-breuer-wassily-chair-tubular-steel-fabric-dessau-germany-1925.webp
+│   │   │   ├── 64db8d2309f5c03382b74475_thumb.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925-p-1080.jpeg
+│   │   │   ├── 64db8d2309f5c03382b74475_thumb.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925-p-500.jpeg
+│   │   │   ├── 64db8d2309f5c03382b74475_thumb.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925-p-800.jpeg
+│   │   │   ├── 64db8d2309f5c03382b74475_thumb.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925.jpeg
+│   │   │   ├── 64db8d2309f5c03382b744bf_full.william-van-alen-chrysler-building-steel-masonry-new-york-1930-p-1080.webp
+│   │   │   ├── 64db8d2309f5c03382b744bf_full.william-van-alen-chrysler-building-steel-masonry-new-york-1930-p-1600.webp
+│   │   │   ├── 64db8d2309f5c03382b744bf_full.william-van-alen-chrysler-building-steel-masonry-new-york-1930-p-500.webp
+│   │   │   ├── 64db8d2309f5c03382b744bf_full.william-van-alen-chrysler-building-steel-masonry-new-york-1930-p-800.webp
+│   │   │   ├── 64db8d2309f5c03382b744bf_full.william-van-alen-chrysler-building-steel-masonry-new-york-1930.webp
+│   │   │   ├── 64db8d2309f5c03382b744e9_full.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925-p-1080.jpeg
+│   │   │   ├── 64db8d2309f5c03382b744e9_full.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925-p-500.jpeg
+│   │   │   ├── 64db8d2309f5c03382b744e9_full.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925-p-800.jpeg
+│   │   │   ├── 64db8d2309f5c03382b744e9_full.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925.jpeg
+│   │   │   ├── 64db8d2309f5c03382b744ed_full.tamara-de-lempicka-portrait-mrs-bush-oil-canvas-mexico-city-1943-p-1080.webp
+│   │   │   ├── 64db8d2309f5c03382b744ed_full.tamara-de-lempicka-portrait-mrs-bush-oil-canvas-mexico-city-1943-p-1600.webp
+│   │   │   ├── 64db8d2309f5c03382b744ed_full.tamara-de-lempicka-portrait-mrs-bush-oil-canvas-mexico-city-1943-p-2000.webp
+│   │   │   ├── 64db8d2309f5c03382b744ed_full.tamara-de-lempicka-portrait-mrs-bush-oil-canvas-mexico-city-1943-p-500.webp
+│   │   │   ├── 64db8d2309f5c03382b744ed_full.tamara-de-lempicka-portrait-mrs-bush-oil-canvas-mexico-city-1943-p-800.webp
+│   │   │   ├── 64db8d2309f5c03382b744ed_full.tamara-de-lempicka-portrait-mrs-bush-oil-canvas-mexico-city-1943.webp
+│   │   │   ├── 64db8d2409f5c03382b7458e_thumb.florence-knoll-sofa-model-2550-leather-chrome-pennsylvania-1972.webp
+│   │   │   ├── 64db8d2409f5c03382b74592_full.eero-saarinen-tulip-chair-fiberglass-aluminum-michigan-1965.webp
+│   │   │   ├── 64db8d2409f5c03382b74596_full.florence-knoll-sofa-model-2550-leather-chrome-pennsylvania-1972.webp
+│   │   │   ├── 64db8d2509f5c03382b7459a_full.charles-ray-eames-lounge-chair-leather-wood-los-angeles-1956.webp
+│   │   │   ├── 64db8d26beb9a3376063bb31_thumb.yinka-shonibare-double-dutch-wax-cotton-london-1992.webp
+│   │   │   ├── 64db8d26beb9a3376063bb35_full.yinka-shonibare-double-dutch-wax-cotton-london-1992.webp
+│   │   │   ├── 64db8d26beb9a3376063bb39_full.judy-chicago-dinner-party-mixed-media-brooklyn-1979.webp
+│   │   │   ├── 64db8d26beb9a3376063bb3d_full.jeff-koons-rabbit-stainless-steel-new-york-1986.webp
+│   │   │   ├── 64db8d2759fa7d8ee2046e8c_thumb.agnes-martin-untitled-1-acrylic-graphite-canvas-new-mexico-1973.webp
+│   │   │   ├── 64db8d2759fa7d8ee2046e90_full.agnes-martin-untitled-1-acrylic-graphite-canvas-new-mexico-1973_copy.webp
+│   │   │   ├── 64db8d2759fa7d8ee2046e94_full.tony-smith-die-steel-new-york-1960.webp
+│   │   │   ├── 64db8d2859fa7d8ee2046e98_full.donald-judd-untitled-stack-galvanized-iron-new-york-1967.webp
+│   │   │   ├── 64db8d29477fe9209e57ab77_thumb.roy-lichtenstein-still-life-goldfish-bowl-oil-magna-canvas-new-york-1972.webp
+│   │   │   ├── 64db8d29477fe9209e57ab7b_full.roy-lichtenstein-still-life-goldfish-bowl-oil-magna-canvas-new-york-1972.webp
+│   │   │   ├── 64db8d29477fe9209e57ab7f_full.andy-warhol-brillo-boxes-silkscreen-ink-house-paint-plywood-new-york-1964.webp
+│   │   │   ├── 64db8d29477fe9209e57ab83_full.jasper-johns-flag-encaustic-on-canvas-new-york-1958.webp
+│   │   │   ├── 64dcc1ec0cad0f78bc4fd9a5_cheetah-neck%20gaiter.webp
+│   │   │   ├── 64dcc1ec25c96820d24426d1_cheetah-swim%20trunks.webp
+│   │   │   ├── 64dcc1ec7e88f1f1ca55c510_cheetah-shirt%20dress.webp
+│   │   │   ├── 64dcc1ec888946034e94c5c9_cheetah-bikini%20top.webp
+│   │   │   ├── 64dcc1ec9fc4a491479cdac6_cheetah-iphone%20case.webp
+│   │   │   ├── 64dcc1ece605e212c6e0dee6_cheetah-pet%20food%20placemat.webp
+│   │   │   ├── 64dcc1ecee5031f6f408e87a_cheetah-apple%20watch%20wrist%20band.webp
+│   │   │   ├── 64dcc1ed0cfc1c9b6d96bf7f_cheetah-table%20lamp.webp
+│   │   │   ├── 64dcc1ed0f76ea4971303c0a_cheetah-womens%20fitted%20tee.webp
+│   │   │   ├── 64dcc1ed21257128d0db6585_cheetah-tights.webp
+│   │   │   ├── 64dcc1ed25c96820d2442832_cheetah-tall%20canteen.webp
+│   │   │   ├── 64dcc1ed63b3e08fbddad424_cheetah-pet%20hoodie.webp
+│   │   │   ├── 64dcc1ed63b3e08fbddad459_cheetah-skater%20skirt.webp
+│   │   │   ├── 64dcc1ed888946034e94c640_cheetah-table%20runner.webp
+│   │   │   ├── 64dcc1ed9a7b90a2b3155cd8_cheetah-t%20shirt.webp
+│   │   │   ├── 64dcc1eddc475efb34f602b8_cheetah-throw%20pillow.webp
+│   │   │   ├── 64dcc1edeac64869d365aaab_cheetah-tufted%20floor%20pillow.webp
+│   │   │   ├── 64dcc1edeff76ee8aa62a849_cheetah-vanity%20plate.webp
+│   │   │   ├── 64dcc1ee32a2514bd5f12665_cheetah-wide%20canteen.webp
+│   │   │   ├── 64dcc1efe3175bfdb7f2fa67_cheetah-throw%20rug.webp
+│   │   │   ├── 64e5df28a294f24fa4e957d5_1-golden-frame-v2-sm.webp
+│   │   │   ├── 64e5ed612820e6e33ee2cf91_skeleton-prayer-R-p-500.webp
+│   │   │   ├── 64e5ed612820e6e33ee2cf91_skeleton-prayer-R.webp
+│   │   │   ├── 64e5ed61f2c7f1fe46367039_skeleton-prayer-L-p-500.webp
+│   │   │   ├── 64e5ed61f2c7f1fe46367039_skeleton-prayer-L.webp
+│   │   │   ├── 64f47145ab86dd89fd7da4c0_bauhaus-contemporary-future-interpretation.webp
+│   │   │   ├── 64f471464133b5962d3fe7b7_biophilic-besign-concept-contemporary-inspiration.webp
+│   │   │   ├── 64f471464266acf96ba633ae_pop-art-contemporary-interpretation-p-1080.webp
+│   │   │   ├── 64f471464266acf96ba633ae_pop-art-contemporary-interpretation-p-500.webp
+│   │   │   ├── 64f471464266acf96ba633ae_pop-art-contemporary-interpretation-p-800.webp
+│   │   │   ├── 64f471464266acf96ba633ae_pop-art-contemporary-interpretation.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation-p-1080.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation-p-500.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation-p-800.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation.webp
+│   │   │   ├── 64f47146bfb0eee6858a831a_industrial-design-contemporary-alien-planet-filter.webp
+│   │   │   ├── 64f47146c9a2047edbaffc60_art-deco-contemporary-concept-interpretation.webp
+│   │   │   ├── 64f47146d23cc794394e3c9d_sustainable-eco-friendly-design-p-1080.webp
+│   │   │   ├── 64f47146d23cc794394e3c9d_sustainable-eco-friendly-design-p-500.webp
+│   │   │   ├── 64f47146d23cc794394e3c9d_sustainable-eco-friendly-design-p-800.webp
+│   │   │   ├── 64f47146d23cc794394e3c9d_sustainable-eco-friendly-design.webp
+│   │   │   ├── 64f47146d38f6886e57166bc_minimalism-contemporary-concept-contemporary-interpretation-p-1080.webp
+│   │   │   ├── 64f47146d38f6886e57166bc_minimalism-contemporary-concept-contemporary-interpretation-p-500.webp
+│   │   │   ├── 64f47146d38f6886e57166bc_minimalism-contemporary-concept-contemporary-interpretation-p-800.webp
+│   │   │   ├── 64f47146d38f6886e57166bc_minimalism-contemporary-concept-contemporary-interpretation.webp
+│   │   │   ├── 64f47146e5685905adf28609_brutalism-futurism-style-of-contemporary-p-1080.webp
+│   │   │   ├── 64f47146e5685905adf28609_brutalism-futurism-style-of-contemporary-p-500.webp
+│   │   │   ├── 64f47146e5685905adf28609_brutalism-futurism-style-of-contemporary-p-800.webp
+│   │   │   ├── 64f47146e5685905adf28609_brutalism-futurism-style-of-contemporary.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation-p-1080.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation-p-500.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation-p-800.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation.webp
+│   │   │   ├── 64f47146e5685905adf2864a_postmodernism-contemporary-futurism-p-1080.webp
+│   │   │   ├── 64f47146e5685905adf2864a_postmodernism-contemporary-futurism-p-500.webp
+│   │   │   ├── 64f47146e5685905adf2864a_postmodernism-contemporary-futurism-p-800.webp
+│   │   │   ├── 64f47146e5685905adf2864a_postmodernism-contemporary-futurism.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation-p-1080.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation-p-500.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation-p-800.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation.webp
+│   │   │   ├── 64f6e41b734ea416c09b2a0d_about-page.webp
+│   │   │   ├── 6510d15e440d694e09e77003_chat-gpt-writes-astrology-p-1080.webp
+│   │   │   ├── 6510d15e440d694e09e77003_chat-gpt-writes-astrology-p-500.webp
+│   │   │   ├── 6510d15e440d694e09e77003_chat-gpt-writes-astrology-p-800.webp
+│   │   │   ├── 6510d15e440d694e09e77003_chat-gpt-writes-astrology.webp
+│   │   │   ├── 65112b9c313368a91c7556f8_chat-gpt-writes-astrology-4-p-1080.webp
+│   │   │   ├── 65112b9c313368a91c7556f8_chat-gpt-writes-astrology-4-p-500.webp
+│   │   │   ├── 65112b9c313368a91c7556f8_chat-gpt-writes-astrology-4-p-800.webp
+│   │   │   ├── 65112b9c313368a91c7556f8_chat-gpt-writes-astrology-4.webp
+│   │   │   ├── 65112c238d8f2eacbd71ca0c_chat-gpt-writes-astrology-6.webp
+│   │   │   ├── 65112c5b216f3bd571979630_chat-gpt-writes-astrology-7-p-1080.webp
+│   │   │   ├── 65112c5b216f3bd571979630_chat-gpt-writes-astrology-7-p-500.webp
+│   │   │   ├── 65112c5b216f3bd571979630_chat-gpt-writes-astrology-7-p-800.webp
+│   │   │   ├── 65112c5b216f3bd571979630_chat-gpt-writes-astrology-7.webp
+│   │   │   ├── 651137e185a0923c3787591f_chat-gpt-writes-astrology-9.webp
+│   │   │   ├── 651137fb50d46c486f094099_chat-gpt-writes-astrology-8.webp
+│   │   │   ├── 65114521d9d3260d5d15aa17_gpt-on-his-asto-expertise-1.webp
+│   │   │   ├── 651145749919b1e21834a8eb_gpt-on-his-asto-expertise-2.webp
+│   │   │   ├── 651279aff2ed6d97e954891c_05-ai-tool-astrology-illustrated-chat-gpt-blog.webp
+│   │   │   ├── 65127a34d27506a6fca1451a_07-ai-tool-astrology-illustrated-chat-gpt-blog-p-1080.webp
+│   │   │   ├── 65127a34d27506a6fca1451a_07-ai-tool-astrology-illustrated-chat-gpt-blog-p-500.webp
+│   │   │   ├── 65127a34d27506a6fca1451a_07-ai-tool-astrology-illustrated-chat-gpt-blog-p-800.webp
+│   │   │   ├── 65127a34d27506a6fca1451a_07-ai-tool-astrology-illustrated-chat-gpt-blog.webp
+│   │   │   ├── 6512b841d27506a6fcd886d2_01-astrology-symbol-aries-p-500.webp
+│   │   │   ├── 6512b841d27506a6fcd886d2_01-astrology-symbol-aries.webp
+│   │   │   ├── 6512b8421da5ba396714f060_12-astrology-symbol-pisces-p-500.webp
+│   │   │   ├── 6512b8421da5ba396714f060_12-astrology-symbol-pisces.webp
+│   │   │   ├── 6512b842423604a90534af8e_07-astrology-symbol-libra-p-500.webp
+│   │   │   ├── 6512b842423604a90534af8e_07-astrology-symbol-libra-p-800.webp
+│   │   │   ├── 6512b842423604a90534af8e_07-astrology-symbol-libra.webp
+│   │   │   ├── 6512b8425cff822a6374c7dd_05-astrology-symbol-leo-p-500.webp
+│   │   │   ├── 6512b8425cff822a6374c7dd_05-astrology-symbol-leo.webp
+│   │   │   ├── 6512b8426fcbaf25c3b08f92_09-astrology-symbol-sagittarius-p-500.webp
+│   │   │   ├── 6512b8426fcbaf25c3b08f92_09-astrology-symbol-sagittarius.webp
+│   │   │   ├── 6512b8427ba1f307048c953e_06-astrology-symbol-virgo-p-500.webp
+│   │   │   ├── 6512b8427ba1f307048c953e_06-astrology-symbol-virgo.webp
+│   │   │   ├── 6512b8427ba1f307048c955b_08-astrology-symbol-scorpio-p-500.webp
+│   │   │   ├── 6512b8427ba1f307048c955b_08-astrology-symbol-scorpio.webp
+│   │   │   ├── 6512b8427c831a5d0013051f_03-astrology-symbol-gemini-p-500.webp
+│   │   │   ├── 6512b8427c831a5d0013051f_03-astrology-symbol-gemini.webp
+│   │   │   ├── 6512b842c50e78dccaed8451_10-astrology-symbol-capricorn-p-500.webp
+│   │   │   ├── 6512b842c50e78dccaed8451_10-astrology-symbol-capricorn.webp
+│   │   │   ├── 6512b842c85b87ef6a6da38d_04-astrology-symbol-cancer-p-500.webp
+│   │   │   ├── 6512b842c85b87ef6a6da38d_04-astrology-symbol-cancer.webp
+│   │   │   ├── 6512b842e403a9b3502175d1_02-astrology-symbol-taurus-p-500.webp
+│   │   │   ├── 6512b842e403a9b3502175d1_02-astrology-symbol-taurus.webp
+│   │   │   ├── 6512b842efea6a0dc5f8de35_11-astrology-symbol-aquarius-p-500.webp
+│   │   │   ├── 6512b842efea6a0dc5f8de35_11-astrology-symbol-aquarius.webp
+│   │   │   ├── 65155d9f3573905639178b03_3-gemini-stereotypical-male-digital-illustration-p-1080.webp
+│   │   │   ├── 65155d9f3573905639178b03_3-gemini-stereotypical-male-digital-illustration-p-500.webp
+│   │   │   ├── 65155d9f3573905639178b03_3-gemini-stereotypical-male-digital-illustration-p-800.webp
+│   │   │   ├── 65155d9f3573905639178b03_3-gemini-stereotypical-male-digital-illustration.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f52d_5-leo-stereotypical-male-digital-illustration-p-1080.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f52d_5-leo-stereotypical-male-digital-illustration-p-500.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f52d_5-leo-stereotypical-male-digital-illustration-p-800.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f52d_5-leo-stereotypical-male-digital-illustration.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f564_1-aries-male-stereotypical-digital-illustration-p-1080.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f564_1-aries-male-stereotypical-digital-illustration-p-500.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f564_1-aries-male-stereotypical-digital-illustration-p-800.webp
+│   │   │   ├── 65155d9fb5d4e0cd5498f564_1-aries-male-stereotypical-digital-illustration.webp
+│   │   │   ├── 65155d9fdd9f802e32cae195_4-cancer-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 65155d9fdd9f802e32cae195_4-cancer-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 65155d9fdd9f802e32cae195_4-cancer-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 65155d9fdd9f802e32cae195_4-cancer-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 65155d9fefee45f6603e95c2_8-scorpio-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 65155d9fefee45f6603e95c2_8-scorpio-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 65155d9fefee45f6603e95c2_8-scorpio-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 65155d9fefee45f6603e95c2_8-scorpio-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 65155d9ff351b942765c25d0_10-capricorn-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 65155d9ff351b942765c25d0_10-capricorn-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 65155d9ff351b942765c25d0_10-capricorn-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 65155d9ff351b942765c25d0_10-capricorn-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 65155da07014815a802f17e1_11-aquarius-stereotypical-male-digital-illustration-p-1080.webp
+│   │   │   ├── 65155da07014815a802f17e1_11-aquarius-stereotypical-male-digital-illustration-p-500.webp
+│   │   │   ├── 65155da07014815a802f17e1_11-aquarius-stereotypical-male-digital-illustration-p-800.webp
+│   │   │   ├── 65155da07014815a802f17e1_11-aquarius-stereotypical-male-digital-illustration.webp
+│   │   │   ├── 65155da12ad46b62a971387c_12-pisces-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 65155da12ad46b62a971387c_12-pisces-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 65155da12ad46b62a971387c_12-pisces-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 65155da12ad46b62a971387c_12-pisces-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 65155da25846242aa10c3950_7-libra-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 65155da25846242aa10c3950_7-libra-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 65155da25846242aa10c3950_7-libra-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 65155da25846242aa10c3950_7-libra-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 65158ca2109bea7dcf30b4a6_1-aries-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 65158ca2109bea7dcf30b4a6_1-aries-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 65158ca2109bea7dcf30b4a6_1-aries-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 65158ca2109bea7dcf30b4a6_1-aries-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 65158ca24d4f245d9658aa32_9-sagittarius-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 65158ca24d4f245d9658aa32_9-sagittarius-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 65158ca24d4f245d9658aa32_9-sagittarius-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 65158ca24d4f245d9658aa32_9-sagittarius-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 65158ca3de426227cee9a76c_6-virgo-stereotypical-male-digital-illustration-p-1080.webp
+│   │   │   ├── 65158ca3de426227cee9a76c_6-virgo-stereotypical-male-digital-illustration-p-500.webp
+│   │   │   ├── 65158ca3de426227cee9a76c_6-virgo-stereotypical-male-digital-illustration-p-800.webp
+│   │   │   ├── 65158ca3de426227cee9a76c_6-virgo-stereotypical-male-digital-illustration.webp
+│   │   │   ├── 6515e09331e4c2cf477ad3c2_2-taurus-stereotypical-female-digital-illustration-p-1080.webp
+│   │   │   ├── 6515e09331e4c2cf477ad3c2_2-taurus-stereotypical-female-digital-illustration-p-500.webp
+│   │   │   ├── 6515e09331e4c2cf477ad3c2_2-taurus-stereotypical-female-digital-illustration-p-800.webp
+│   │   │   ├── 6515e09331e4c2cf477ad3c2_2-taurus-stereotypical-female-digital-illustration.webp
+│   │   │   ├── 6519dcb1b1dcac41b5abeebd_10-02-2023-internal.webp
+│   │   │   ├── 6519dcb1b1dcac41b5abeec1_10-02-2023-external.webp
+│   │   │   ├── 6519dcb1b1dcac41b5abeed7_10-02-2023-alignment.webp
+│   │   │   ├── 6519e1c3ba01c1e23430833e_09-25-2023-sagittarius-horoscope%20collection-p-1080.webp
+│   │   │   ├── 6519e1c3ba01c1e23430833e_09-25-2023-sagittarius-horoscope%20collection-p-500.webp
+│   │   │   ├── 6519e1c3ba01c1e23430833e_09-25-2023-sagittarius-horoscope%20collection-p-800.webp
+│   │   │   ├── 6519e1c3ba01c1e23430833e_09-25-2023-sagittarius-horoscope%20collection.webp
+│   │   │   ├── 6519e262b2d820de93ef9144_09-25-2023-leo-horoscope%20collection-p-1080.webp
+│   │   │   ├── 6519e262b2d820de93ef9144_09-25-2023-leo-horoscope%20collection-p-500.webp
+│   │   │   ├── 6519e262b2d820de93ef9144_09-25-2023-leo-horoscope%20collection-p-800.webp
+│   │   │   ├── 6519e262b2d820de93ef9144_09-25-2023-leo-horoscope%20collection.webp
+│   │   │   ├── 6519e29e538e0b47baf4482c_09-25-2023-gemini-horoscope%20collection-p-1080.webp
+│   │   │   ├── 6519e29e538e0b47baf4482c_09-25-2023-gemini-horoscope%20collection-p-500.webp
+│   │   │   ├── 6519e29e538e0b47baf4482c_09-25-2023-gemini-horoscope%20collection-p-800.webp
+│   │   │   ├── 6519e29e538e0b47baf4482c_09-25-2023-gemini-horoscope%20collection.webp
+│   │   │   ├── 6519e2b9f5bb2df8dd5d4711_09-25-2023-taurus-horoscope%20collection-p-1080.webp
+│   │   │   ├── 6519e2b9f5bb2df8dd5d4711_09-25-2023-taurus-horoscope%20collection-p-500.webp
+│   │   │   ├── 6519e2b9f5bb2df8dd5d4711_09-25-2023-taurus-horoscope%20collection-p-800.webp
+│   │   │   ├── 6519e2b9f5bb2df8dd5d4711_09-25-2023-taurus-horoscope%20collection.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly-p-1080.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly-p-500.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly-p-800.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly.webp
+│   │   │   ├── 651bec91da53cdd302a56d85_home-urban-yoga-encouraging-p-1080.webp
+│   │   │   ├── 651bec91da53cdd302a56d85_home-urban-yoga-encouraging-p-500.webp
+│   │   │   ├── 651bec91da53cdd302a56d85_home-urban-yoga-encouraging-p-800.webp
+│   │   │   ├── 651bec91da53cdd302a56d85_home-urban-yoga-encouraging.webp
+│   │   │   ├── 651becb8ecf64d9a2c50d1a4_home-pop-art-contemporary-interpretation-p-1080.webp
+│   │   │   ├── 651becb8ecf64d9a2c50d1a4_home-pop-art-contemporary-interpretation-p-500.webp
+│   │   │   ├── 651becb8ecf64d9a2c50d1a4_home-pop-art-contemporary-interpretation-p-800.webp
+│   │   │   ├── 651becb8ecf64d9a2c50d1a4_home-pop-art-contemporary-interpretation.webp
+│   │   │   ├── 651bece4d055d6e8940a1723_home-beach-oil-painting-p-1080.webp
+│   │   │   ├── 651bece4d055d6e8940a1723_home-beach-oil-painting-p-500.webp
+│   │   │   ├── 651bece4d055d6e8940a1723_home-beach-oil-painting-p-800.webp
+│   │   │   ├── 651bece4d055d6e8940a1723_home-beach-oil-painting.webp
+│   │   │   ├── 651bed0af84be606f8f17265_home-self-care-quirky-android-p-1080.webp
+│   │   │   ├── 651bed0af84be606f8f17265_home-self-care-quirky-android-p-500.webp
+│   │   │   ├── 651bed0af84be606f8f17265_home-self-care-quirky-android-p-800.webp
+│   │   │   ├── 651bed0af84be606f8f17265_home-self-care-quirky-android.webp
+│   │   │   ├── 651bef868244c77a2a32168e_home-urban-street-p-1080.webp
+│   │   │   ├── 651bef868244c77a2a32168e_home-urban-street-p-1600.webp
+│   │   │   ├── 651bef868244c77a2a32168e_home-urban-street-p-2000.webp
+│   │   │   ├── 651bef868244c77a2a32168e_home-urban-street-p-500.webp
+│   │   │   ├── 651bef868244c77a2a32168e_home-urban-street-p-800.webp
+│   │   │   ├── 651bef868244c77a2a32168e_home-urban-street.webp
+│   │   │   ├── 651bf185d01f3c5e70a779fb_home-expansive-unexpected-conflict-p-1080.webp
+│   │   │   ├── 651bf185d01f3c5e70a779fb_home-expansive-unexpected-conflict-p-500.webp
+│   │   │   ├── 651bf185d01f3c5e70a779fb_home-expansive-unexpected-conflict-p-800.webp
+│   │   │   ├── 651bf185d01f3c5e70a779fb_home-expansive-unexpected-conflict.webp
+│   │   │   ├── 651bf1a0b6fe57b91e02b090_home-child-cloud-painting-p-1080.webp
+│   │   │   ├── 651bf1a0b6fe57b91e02b090_home-child-cloud-painting-p-500.webp
+│   │   │   ├── 651bf1a0b6fe57b91e02b090_home-child-cloud-painting-p-800.webp
+│   │   │   ├── 651bf1a0b6fe57b91e02b090_home-child-cloud-painting.webp
+│   │   │   ├── 651bf1afb6fe57b91e02c1af_home-deer-rack-painting-p-1080.webp
+│   │   │   ├── 651bf1afb6fe57b91e02c1af_home-deer-rack-painting-p-500.webp
+│   │   │   ├── 651bf1afb6fe57b91e02c1af_home-deer-rack-painting-p-800.webp
+│   │   │   ├── 651bf1afb6fe57b91e02c1af_home-deer-rack-painting.webp
+│   │   │   ├── 651bf3a7326f41a7abbce675_home-photo-beach-p-1080.webp
+│   │   │   ├── 651bf3a7326f41a7abbce675_home-photo-beach-p-500.webp
+│   │   │   ├── 651bf3a7326f41a7abbce675_home-photo-beach-p-800.webp
+│   │   │   ├── 651bf3a7326f41a7abbce675_home-photo-beach.webp
+│   │   │   ├── 651c80e60820051e74fd0948_industrial-design-5-p-1080.webp
+│   │   │   ├── 651c80e60820051e74fd0948_industrial-design-5-p-500.webp
+│   │   │   ├── 651c80e60820051e74fd0948_industrial-design-5-p-800.webp
+│   │   │   ├── 651c80e60820051e74fd0948_industrial-design-5.webp
+│   │   │   ├── 651c80e60c5a7f3854093276_industrial-design-3-p-1080.webp
+│   │   │   ├── 651c80e60c5a7f3854093276_industrial-design-3-p-500.webp
+│   │   │   ├── 651c80e60c5a7f3854093276_industrial-design-3-p-800.webp
+│   │   │   ├── 651c80e60c5a7f3854093276_industrial-design-3.webp
+│   │   │   ├── 651c80e6950d6222fdab0092_industrial-design-4-p-1080.webp
+│   │   │   ├── 651c80e6950d6222fdab0092_industrial-design-4-p-500.webp
+│   │   │   ├── 651c80e6950d6222fdab0092_industrial-design-4-p-800.webp
+│   │   │   ├── 651c80e6950d6222fdab0092_industrial-design-4.webp
+│   │   │   ├── 651c80e6c5fe9a38503219af_industrial-design-2-p-1080.webp
+│   │   │   ├── 651c80e6c5fe9a38503219af_industrial-design-2-p-500.webp
+│   │   │   ├── 651c80e6c5fe9a38503219af_industrial-design-2-p-800.webp
+│   │   │   ├── 651c80e6c5fe9a38503219af_industrial-design-2.webp
+│   │   │   ├── 651c80e6ca764ac9eec5fe41_industrial-design-1-p-1080.webp
+│   │   │   ├── 651c80e6ca764ac9eec5fe41_industrial-design-1-p-500.webp
+│   │   │   ├── 651c80e6ca764ac9eec5fe41_industrial-design-1-p-800.webp
+│   │   │   ├── 651c80e6ca764ac9eec5fe41_industrial-design-1.webp
+│   │   │   ├── 651c824603bb8d3d264c33cc_sustainable-eco-friendly-design-3-p-1080.webp
+│   │   │   ├── 651c824603bb8d3d264c33cc_sustainable-eco-friendly-design-3-p-500.webp
+│   │   │   ├── 651c824603bb8d3d264c33cc_sustainable-eco-friendly-design-3-p-800.webp
+│   │   │   ├── 651c824603bb8d3d264c33cc_sustainable-eco-friendly-design-3.webp
+│   │   │   ├── 651c824662c8fbff74980841_sustainable-eco-friendly-design-6-p-1080.webp
+│   │   │   ├── 651c824662c8fbff74980841_sustainable-eco-friendly-design-6-p-500.webp
+│   │   │   ├── 651c824662c8fbff74980841_sustainable-eco-friendly-design-6-p-800.webp
+│   │   │   ├── 651c824662c8fbff74980841_sustainable-eco-friendly-design-6.webp
+│   │   │   ├── 651c8246bb0bc404945a9b4d_sustainable-eco-friendly-design-2-p-1080.webp
+│   │   │   ├── 651c8246bb0bc404945a9b4d_sustainable-eco-friendly-design-2-p-500.webp
+│   │   │   ├── 651c8246bb0bc404945a9b4d_sustainable-eco-friendly-design-2-p-800.webp
+│   │   │   ├── 651c8246bb0bc404945a9b4d_sustainable-eco-friendly-design-2.webp
+│   │   │   ├── 651c8246d6cde98472ec2350_sustainable-eco-friendly-design-5-p-1080.webp
+│   │   │   ├── 651c8246d6cde98472ec2350_sustainable-eco-friendly-design-5-p-500.webp
+│   │   │   ├── 651c8246d6cde98472ec2350_sustainable-eco-friendly-design-5-p-800.webp
+│   │   │   ├── 651c8246d6cde98472ec2350_sustainable-eco-friendly-design-5.webp
+│   │   │   ├── 651c8246e21ed1b31c0e0a8e_sustainable-eco-friendly-design-4-p-1080.webp
+│   │   │   ├── 651c8246e21ed1b31c0e0a8e_sustainable-eco-friendly-design-4-p-500.webp
+│   │   │   ├── 651c8246e21ed1b31c0e0a8e_sustainable-eco-friendly-design-4-p-800.webp
+│   │   │   ├── 651c8246e21ed1b31c0e0a8e_sustainable-eco-friendly-design-4.webp
+│   │   │   ├── 651c831a6a856b0f0d438fa4_biophilic-besign-1-p-1080.webp
+│   │   │   ├── 651c831a6a856b0f0d438fa4_biophilic-besign-1-p-500.webp
+│   │   │   ├── 651c831a6a856b0f0d438fa4_biophilic-besign-1-p-800.webp
+│   │   │   ├── 651c831a6a856b0f0d438fa4_biophilic-besign-1.webp
+│   │   │   ├── 651c831a9d81b9ae2ac4edf2_biophilic-besign-2-p-1080.webp
+│   │   │   ├── 651c831a9d81b9ae2ac4edf2_biophilic-besign-2-p-500.webp
+│   │   │   ├── 651c831a9d81b9ae2ac4edf2_biophilic-besign-2-p-800.webp
+│   │   │   ├── 651c831a9d81b9ae2ac4edf2_biophilic-besign-2.webp
+│   │   │   ├── 651c843b4642fda41bb84c57_postmodernism-1-p-1080.webp
+│   │   │   ├── 651c843b4642fda41bb84c57_postmodernism-1-p-500.webp
+│   │   │   ├── 651c843b4642fda41bb84c57_postmodernism-1-p-800.webp
+│   │   │   ├── 651c843b4642fda41bb84c57_postmodernism-1.webp
+│   │   │   ├── 651c843c821c693bc4881ec4_postmodernism-3-p-1080.webp
+│   │   │   ├── 651c843c821c693bc4881ec4_postmodernism-3-p-500.webp
+│   │   │   ├── 651c843c821c693bc4881ec4_postmodernism-3-p-800.webp
+│   │   │   ├── 651c843c821c693bc4881ec4_postmodernism-3.webp
+│   │   │   ├── 651c852c4b47dc41ad230668_brutalism-6-p-1080.webp
+│   │   │   ├── 651c852c4b47dc41ad230668_brutalism-6-p-500.webp
+│   │   │   ├── 651c852c4b47dc41ad230668_brutalism-6-p-800.webp
+│   │   │   ├── 651c852c4b47dc41ad230668_brutalism-6.webp
+│   │   │   ├── 651c852c617729c903dec9ed_brutalism-1-p-1080.webp
+│   │   │   ├── 651c852c617729c903dec9ed_brutalism-1-p-500.webp
+│   │   │   ├── 651c852c617729c903dec9ed_brutalism-1-p-800.webp
+│   │   │   ├── 651c852c617729c903dec9ed_brutalism-1.webp
+│   │   │   ├── 651c852c62c8fbff749b8989_brutalism-4-p-1080.webp
+│   │   │   ├── 651c852c62c8fbff749b8989_brutalism-4-p-500.webp
+│   │   │   ├── 651c852c62c8fbff749b8989_brutalism-4-p-800.webp
+│   │   │   ├── 651c852c62c8fbff749b8989_brutalism-4.webp
+│   │   │   ├── 651c852cdcf442d929e3e5b7_brutalism-3-p-1080.webp
+│   │   │   ├── 651c852cdcf442d929e3e5b7_brutalism-3-p-500.webp
+│   │   │   ├── 651c852cdcf442d929e3e5b7_brutalism-3-p-800.webp
+│   │   │   ├── 651c852cdcf442d929e3e5b7_brutalism-3.webp
+│   │   │   ├── 651c852cdcf442d929e3e5ba_brutalism-2-p-1080.webp
+│   │   │   ├── 651c852cdcf442d929e3e5ba_brutalism-2-p-500.webp
+│   │   │   ├── 651c852cdcf442d929e3e5ba_brutalism-2-p-800.webp
+│   │   │   ├── 651c852cdcf442d929e3e5ba_brutalism-2.webp
+│   │   │   ├── 651c867a027e38c699d751ca_scandinavian-design-7-p-1080.webp
+│   │   │   ├── 651c867a027e38c699d751ca_scandinavian-design-7-p-500.webp
+│   │   │   ├── 651c867a027e38c699d751ca_scandinavian-design-7-p-800.webp
+│   │   │   ├── 651c867a027e38c699d751ca_scandinavian-design-7.webp
+│   │   │   ├── 651c867a230e07d5b1162854_scandinavian-design-6-p-1080.webp
+│   │   │   ├── 651c867a230e07d5b1162854_scandinavian-design-6-p-500.webp
+│   │   │   ├── 651c867a230e07d5b1162854_scandinavian-design-6-p-800.webp
+│   │   │   ├── 651c867a230e07d5b1162854_scandinavian-design-6.webp
+│   │   │   ├── 651c867a821c693bc48af463_scandinavian-design-8-p-1080.webp
+│   │   │   ├── 651c867a821c693bc48af463_scandinavian-design-8-p-500.webp
+│   │   │   ├── 651c867a821c693bc48af463_scandinavian-design-8-p-800.webp
+│   │   │   ├── 651c867a821c693bc48af463_scandinavian-design-8.webp
+│   │   │   ├── 651c867a9a743fdde6343cd9_scandinavian-design-2-p-1080.webp
+│   │   │   ├── 651c867a9a743fdde6343cd9_scandinavian-design-2-p-500.webp
+│   │   │   ├── 651c867a9a743fdde6343cd9_scandinavian-design-2-p-800.webp
+│   │   │   ├── 651c867a9a743fdde6343cd9_scandinavian-design-2.webp
+│   │   │   ├── 651c867a9a743fdde6343ce4_scandinavian-design-5-p-1080.webp
+│   │   │   ├── 651c867a9a743fdde6343ce4_scandinavian-design-5-p-500.webp
+│   │   │   ├── 651c867a9a743fdde6343ce4_scandinavian-design-5-p-800.webp
+│   │   │   ├── 651c867a9a743fdde6343ce4_scandinavian-design-5.webp
+│   │   │   ├── 651c867a9a743fdde6343d2a_scandinavian-design-4-p-1080.webp
+│   │   │   ├── 651c867a9a743fdde6343d2a_scandinavian-design-4-p-500.webp
+│   │   │   ├── 651c867a9a743fdde6343d2a_scandinavian-design-4-p-800.webp
+│   │   │   ├── 651c867a9a743fdde6343d2a_scandinavian-design-4.webp
+│   │   │   ├── 651c867ae21ed1b31c130167_scandinavian-design-3-p-1080.webp
+│   │   │   ├── 651c867ae21ed1b31c130167_scandinavian-design-3-p-500.webp
+│   │   │   ├── 651c867ae21ed1b31c130167_scandinavian-design-3-p-800.webp
+│   │   │   ├── 651c867ae21ed1b31c130167_scandinavian-design-3.webp
+│   │   │   ├── 651c87b2972670d7153107e8_bauhaus-3-p-1080.webp
+│   │   │   ├── 651c87b2972670d7153107e8_bauhaus-3-p-500.webp
+│   │   │   ├── 651c87b2972670d7153107e8_bauhaus-3-p-800.webp
+│   │   │   ├── 651c87b2972670d7153107e8_bauhaus-3.webp
+│   │   │   ├── 651c87b29d81b9ae2ac9fa38_bauhaus-1-p-1080.webp
+│   │   │   ├── 651c87b29d81b9ae2ac9fa38_bauhaus-1-p-500.webp
+│   │   │   ├── 651c87b29d81b9ae2ac9fa38_bauhaus-1-p-800.webp
+│   │   │   ├── 651c87b29d81b9ae2ac9fa38_bauhaus-1.webp
+│   │   │   ├── 651c87b2a3a77ae00461483f_bauhaus-5-p-1080.webp
+│   │   │   ├── 651c87b2a3a77ae00461483f_bauhaus-5-p-500.webp
+│   │   │   ├── 651c87b2a3a77ae00461483f_bauhaus-5-p-800.webp
+│   │   │   ├── 651c87b2a3a77ae00461483f_bauhaus-5.webp
+│   │   │   ├── 651c87b2ca764ac9eece4c6b_bauhaus-2-p-1080.webp
+│   │   │   ├── 651c87b2ca764ac9eece4c6b_bauhaus-2-p-500.webp
+│   │   │   ├── 651c87b2ca764ac9eece4c6b_bauhaus-2-p-800.webp
+│   │   │   ├── 651c87b2ca764ac9eece4c6b_bauhaus-2.webp
+│   │   │   ├── 651c87b3c766dfd6770aff9a_bauhaus-4-p-1080.webp
+│   │   │   ├── 651c87b3c766dfd6770aff9a_bauhaus-4-p-500.webp
+│   │   │   ├── 651c87b3c766dfd6770aff9a_bauhaus-4-p-800.webp
+│   │   │   ├── 651c87b3c766dfd6770aff9a_bauhaus-4.webp
+│   │   │   ├── 651c8912027e38c699da21a5_art-deco-3-p-1080.webp
+│   │   │   ├── 651c8912027e38c699da21a5_art-deco-3-p-500.webp
+│   │   │   ├── 651c8912027e38c699da21a5_art-deco-3-p-800.webp
+│   │   │   ├── 651c8912027e38c699da21a5_art-deco-3.webp
+│   │   │   ├── 651c89120c5a7f38541267c3_art-deco-1-p-1080.webp
+│   │   │   ├── 651c89120c5a7f38541267c3_art-deco-1-p-500.webp
+│   │   │   ├── 651c89120c5a7f38541267c3_art-deco-1-p-800.webp
+│   │   │   ├── 651c89120c5a7f38541267c3_art-deco-1.webp
+│   │   │   ├── 651c8912617729c903e2d273_art-deco-5-p-1080.webp
+│   │   │   ├── 651c8912617729c903e2d273_art-deco-5-p-500.webp
+│   │   │   ├── 651c8912617729c903e2d273_art-deco-5-p-800.webp
+│   │   │   ├── 651c8912617729c903e2d273_art-deco-5.webp
+│   │   │   ├── 651c89127994a3d05d513fb9_art-deco-6-p-1080.webp
+│   │   │   ├── 651c89127994a3d05d513fb9_art-deco-6-p-500.webp
+│   │   │   ├── 651c89127994a3d05d513fb9_art-deco-6-p-800.webp
+│   │   │   ├── 651c89127994a3d05d513fb9_art-deco-6.webp
+│   │   │   ├── 651c891281b09c8d5b33197a_art-deco-4-p-1080.webp
+│   │   │   ├── 651c891281b09c8d5b33197a_art-deco-4-p-500.webp
+│   │   │   ├── 651c891281b09c8d5b33197a_art-deco-4-p-800.webp
+│   │   │   ├── 651c891281b09c8d5b33197a_art-deco-4.webp
+│   │   │   ├── 651c891281b09c8d5b3319f7_art-deco-8-p-1080.webp
+│   │   │   ├── 651c891281b09c8d5b3319f7_art-deco-8-p-500.webp
+│   │   │   ├── 651c891281b09c8d5b3319f7_art-deco-8-p-800.webp
+│   │   │   ├── 651c891281b09c8d5b3319f7_art-deco-8.webp
+│   │   │   ├── 651c8912c5fe9a38503c589d_art-deco-2-p-1080.webp
+│   │   │   ├── 651c8912c5fe9a38503c589d_art-deco-2-p-500.webp
+│   │   │   ├── 651c8912c5fe9a38503c589d_art-deco-2-p-800.webp
+│   │   │   ├── 651c8912c5fe9a38503c589d_art-deco-2.webp
+│   │   │   ├── 651c8912ca764ac9eecfcd6d_art-deco-10-p-1080.webp
+│   │   │   ├── 651c8912ca764ac9eecfcd6d_art-deco-10-p-500.webp
+│   │   │   ├── 651c8912ca764ac9eecfcd6d_art-deco-10-p-800.webp
+│   │   │   ├── 651c8912ca764ac9eecfcd6d_art-deco-10.webp
+│   │   │   ├── 651c8912dcf442d929e83a7b_art-deco-7-p-1080.webp
+│   │   │   ├── 651c8912dcf442d929e83a7b_art-deco-7-p-500.webp
+│   │   │   ├── 651c8912dcf442d929e83a7b_art-deco-7-p-800.webp
+│   │   │   ├── 651c8912dcf442d929e83a7b_art-deco-7.webp
+│   │   │   ├── 651c89130954524d3e942f48_art-deco-9-p-1080.webp
+│   │   │   ├── 651c89130954524d3e942f48_art-deco-9-p-500.webp
+│   │   │   ├── 651c89130954524d3e942f48_art-deco-9-p-800.webp
+│   │   │   ├── 651c89130954524d3e942f48_art-deco-9.webp
+│   │   │   ├── 651c8ab80c5a7f38541449d3_mid-century-modern-3-p-1080.webp
+│   │   │   ├── 651c8ab80c5a7f38541449d3_mid-century-modern-3-p-500.webp
+│   │   │   ├── 651c8ab80c5a7f38541449d3_mid-century-modern-3-p-800.webp
+│   │   │   ├── 651c8ab80c5a7f38541449d3_mid-century-modern-3.webp
+│   │   │   ├── 651c8ab86a856b0f0d4c03f6_mid-century-modern-1-p-1080.webp
+│   │   │   ├── 651c8ab86a856b0f0d4c03f6_mid-century-modern-1-p-500.webp
+│   │   │   ├── 651c8ab86a856b0f0d4c03f6_mid-century-modern-1-p-800.webp
+│   │   │   ├── 651c8ab86a856b0f0d4c03f6_mid-century-modern-1.webp
+│   │   │   ├── 651c8ab876bdb1c73c88d6a1_mid-century-modern-2-p-1080.webp
+│   │   │   ├── 651c8ab876bdb1c73c88d6a1_mid-century-modern-2-p-500.webp
+│   │   │   ├── 651c8ab876bdb1c73c88d6a1_mid-century-modern-2-p-800.webp
+│   │   │   ├── 651c8ab876bdb1c73c88d6a1_mid-century-modern-2.webp
+│   │   │   ├── 651c8ab8bb0bc40494642550_mid-century-modern-5-p-1080.webp
+│   │   │   ├── 651c8ab8bb0bc40494642550_mid-century-modern-5-p-500.webp
+│   │   │   ├── 651c8ab8bb0bc40494642550_mid-century-modern-5-p-800.webp
+│   │   │   ├── 651c8ab8bb0bc40494642550_mid-century-modern-5.webp
+│   │   │   ├── 651c8ab8c7a7f650f1c21f37_mid-century-modern-4-p-1080.webp
+│   │   │   ├── 651c8ab8c7a7f650f1c21f37_mid-century-modern-4-p-500.webp
+│   │   │   ├── 651c8ab8c7a7f650f1c21f37_mid-century-modern-4-p-800.webp
+│   │   │   ├── 651c8ab8c7a7f650f1c21f37_mid-century-modern-4.webp
+│   │   │   ├── 651c8be005e41b56aae76f6e_maximalism-1-p-1080.webp
+│   │   │   ├── 651c8be005e41b56aae76f6e_maximalism-1-p-500.webp
+│   │   │   ├── 651c8be005e41b56aae76f6e_maximalism-1-p-800.webp
+│   │   │   ├── 651c8be005e41b56aae76f6e_maximalism-1.webp
+│   │   │   ├── 651c8be085bd607941e1f5ec_maximalism-6-p-1080.webp
+│   │   │   ├── 651c8be085bd607941e1f5ec_maximalism-6-p-500.webp
+│   │   │   ├── 651c8be085bd607941e1f5ec_maximalism-6-p-800.webp
+│   │   │   ├── 651c8be085bd607941e1f5ec_maximalism-6.webp
+│   │   │   ├── 651c8be09d81b9ae2acec0b4_maximalism-4-p-1080.webp
+│   │   │   ├── 651c8be09d81b9ae2acec0b4_maximalism-4-p-500.webp
+│   │   │   ├── 651c8be09d81b9ae2acec0b4_maximalism-4-p-800.webp
+│   │   │   ├── 651c8be09d81b9ae2acec0b4_maximalism-4.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe2_maximalism-3-p-1080.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe2_maximalism-3-p-500.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe2_maximalism-3-p-800.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe2_maximalism-3.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe9_maximalism-2-p-1080.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe9_maximalism-2-p-500.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe9_maximalism-2-p-800.webp
+│   │   │   ├── 651c8be0c7a7f650f1c36fe9_maximalism-2.webp
+│   │   │   ├── 651c8d0b16b917f97d3fed38_5-minimalism-p-1080.webp
+│   │   │   ├── 651c8d0b16b917f97d3fed38_5-minimalism-p-500.webp
+│   │   │   ├── 651c8d0b16b917f97d3fed38_5-minimalism-p-800.webp
+│   │   │   ├── 651c8d0b16b917f97d3fed38_5-minimalism.webp
+│   │   │   ├── 651c8d0b518015eb04fd9cd2_7-minimalism-p-1080.webp
+│   │   │   ├── 651c8d0b518015eb04fd9cd2_7-minimalism-p-500.webp
+│   │   │   ├── 651c8d0b518015eb04fd9cd2_7-minimalism-p-800.webp
+│   │   │   ├── 651c8d0b518015eb04fd9cd2_7-minimalism.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81e8_2-minimalism-p-1080.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81e8_2-minimalism-p-500.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81e8_2-minimalism-p-800.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81e8_2-minimalism.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81ee_3-minimalism-p-1080.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81ee_3-minimalism-p-500.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81ee_3-minimalism-p-800.webp
+│   │   │   ├── 651c8d0b6a856b0f0d4e81ee_3-minimalism.webp
+│   │   │   ├── 651c8d0b7994a3d05d55b33c_6-minimalism-p-1080.webp
+│   │   │   ├── 651c8d0b7994a3d05d55b33c_6-minimalism-p-500.webp
+│   │   │   ├── 651c8d0b7994a3d05d55b33c_6-minimalism-p-800.webp
+│   │   │   ├── 651c8d0b7994a3d05d55b33c_6-minimalism.webp
+│   │   │   ├── 651c8d0be21ed1b31c1b01c3_1-minimalism-p-1080.webp
+│   │   │   ├── 651c8d0be21ed1b31c1b01c3_1-minimalism-p-500.webp
+│   │   │   ├── 651c8d0be21ed1b31c1b01c3_1-minimalism-p-800.webp
+│   │   │   ├── 651c8d0be21ed1b31c1b01c3_1-minimalism.webp
+│   │   │   ├── 651c8e256a856b0f0d4fc66e_4-pop-art-p-1080.webp
+│   │   │   ├── 651c8e256a856b0f0d4fc66e_4-pop-art-p-500.webp
+│   │   │   ├── 651c8e256a856b0f0d4fc66e_4-pop-art-p-800.webp
+│   │   │   ├── 651c8e256a856b0f0d4fc66e_4-pop-art.webp
+│   │   │   ├── 651c8e25821c693bc49356bf_1-pop-art-p-1080.webp
+│   │   │   ├── 651c8e25821c693bc49356bf_1-pop-art-p-500.webp
+│   │   │   ├── 651c8e25821c693bc49356bf_1-pop-art-p-800.webp
+│   │   │   ├── 651c8e25821c693bc49356bf_1-pop-art.webp
+│   │   │   ├── 651c8e25bb0bc40494679e81_3-pop-art-p-1080.webp
+│   │   │   ├── 651c8e25bb0bc40494679e81_3-pop-art-p-500.webp
+│   │   │   ├── 651c8e25bb0bc40494679e81_3-pop-art-p-800.webp
+│   │   │   ├── 651c8e25bb0bc40494679e81_3-pop-art.webp
+│   │   │   ├── 651c8e25c5fe9a385041a3d7_6-pop-art-p-1080.webp
+│   │   │   ├── 651c8e25c5fe9a385041a3d7_6-pop-art-p-500.webp
+│   │   │   ├── 651c8e25c5fe9a385041a3d7_6-pop-art-p-800.webp
+│   │   │   ├── 651c8e25c5fe9a385041a3d7_6-pop-art.webp
+│   │   │   ├── 651c8e25c766dfd6771228f4_5-pop-art-p-1080.webp
+│   │   │   ├── 651c8e25c766dfd6771228f4_5-pop-art-p-500.webp
+│   │   │   ├── 651c8e25c766dfd6771228f4_5-pop-art-p-800.webp
+│   │   │   ├── 651c8e25c766dfd6771228f4_5-pop-art.webp
+│   │   │   ├── 651fd2fe72a75899e979802b_home-portfolio-02-p-1080.webp
+│   │   │   ├── 651fd2fe72a75899e979802b_home-portfolio-02-p-500.webp
+│   │   │   ├── 651fd2fe72a75899e979802b_home-portfolio-02-p-800.webp
+│   │   │   ├── 651fd2fe72a75899e979802b_home-portfolio-02.webp
+│   │   │   ├── 651fd3044d28b81b1e953782_home-portfolio-03-p-1080.webp
+│   │   │   ├── 651fd3044d28b81b1e953782_home-portfolio-03-p-500.webp
+│   │   │   ├── 651fd3044d28b81b1e953782_home-portfolio-03-p-800.webp
+│   │   │   ├── 651fd3044d28b81b1e953782_home-portfolio-03.webp
+│   │   │   ├── 651fd30976412162470b0a9d_home-portfolio-04-p-1080.webp
+│   │   │   ├── 651fd30976412162470b0a9d_home-portfolio-04-p-500.webp
+│   │   │   ├── 651fd30976412162470b0a9d_home-portfolio-04-p-800.webp
+│   │   │   ├── 651fd30976412162470b0a9d_home-portfolio-04.webp
+│   │   │   ├── 65234940d528f3ff959c69f1_2023-10-15-art.webp
+│   │   │   ├── 65234940d528f3ff959c69f5_2023-10-15-1400-gmt-sunday-astrology-chart.webp
+│   │   │   ├── 65234942f5ae5bc3f780cefd_2023-10-14-art.webp
+│   │   │   ├── 65234942f5ae5bc3f780cf01_2023-10-14-1400-gmt-saturday-astrology-chart.webp
+│   │   │   ├── 652349475ed77d271e0f9592_2023-10-13-1400-gmt-friday-astrology-chart.webp
+│   │   │   ├── 652349475ed77d271e0f959c_2023-10-13-art.webp
+│   │   │   ├── 6523494ffe68096810f286f1_2023-10-11-1400-gmt-wednesday-astrology-chart.webp
+│   │   │   ├── 6523494ffe68096810f286f4_2023-10-11-art.webp
+│   │   │   ├── 652349517bd704342e185bd2_2023-10-10-1400-gmt-tuesday-astrology-chart.webp
+│   │   │   ├── 652349517bd704342e185dd6_2023-10-10-art.webp
+│   │   │   ├── 652c0eefb28a24a88d47e2ae_2023-10-26-1400-gmt-thursday-astrology-chart.webp
+│   │   │   ├── 652c0eefb28a24a88d47e2b1_2023-10-26-art.webp
+│   │   │   ├── 652c0f91e89ae4ccd1a9d0f1_2023-10-25-1400-gmt-wednesday-astrology-chart.webp
+│   │   │   ├── 652c0f91e89ae4ccd1a9d0f9_2023-10-25-art.webp
+│   │   │   ├── 652c0ffccc73f5399b09dac6_2023-10-24-1400-gmt-tuesday-astrology-chart.webp
+│   │   │   ├── 652c0ffccc73f5399b09dac9_2023-10-24-art.webp
+│   │   │   ├── 652c113998d0347e12f90447_2023-10-23-1400-gmt-monday-astrology-chart.webp
+│   │   │   ├── 652c113998d0347e12f9044a_2023-10-23-art.webp
+│   │   │   ├── 652c1226ebc991c32ecf610a_2023-10-22-art.webp
+│   │   │   ├── 652c1227ebc991c32ecf6135_2023-10-22-1400-gmt-sunday-astrology-chart.webp
+│   │   │   ├── 652c1359659b8c3f18eb2721_2023-10-21-art.webp
+│   │   │   ├── 652c1359659b8c3f18eb2760_2023-10-21-1400-gmt-saturday-astrology-chart.webp
+│   │   │   ├── 652c14896f2eee9ad5006a5e_2023-10-20-art.webp
+│   │   │   ├── 652c14896f2eee9ad5006a6e_2023-10-20-1400-gmt-friday-astrology-chart.webp
+│   │   │   ├── 652c175b9579c3d31d541c5e_2023-10-19-1400-gmt-thursday-astrology-chart.webp
+│   │   │   ├── 652c175b9579c3d31d541c61_2023-10-19-art.webp
+│   │   │   ├── 652c1890b9e1b1174247e246_2023-10-18-1400-gmt-wednesday-astrology-chart.webp
+│   │   │   ├── 652c1890b9e1b1174247e249_2023-10-18-art.webp
+│   │   │   ├── 652c19be98d0347e1204000f_2023-10-17-1400-gmt-tuesday-astrology-chart.webp
+│   │   │   ├── 652c19be98d0347e12040012_2023-10-17-art.webp
+│   │   │   ├── 652c1af5668035544eba7f06_2023-10-16-art.webp
+│   │   │   ├── 652c1af5668035544eba7f24_2023-10-16-1400-gmt-monday-astrology-chart.webp
+│   │   │   ├── 652f9fda61be0d27b631b4de_231016-horoscope-v.mars-4-cancer.webp
+│   │   │   ├── 652f9fda61be0d27b631b4e1_231016-horoscope-career-4-cancer.webp
+│   │   │   ├── 652f9fda61be0d27b631b4ea_231016-horoscope-clothes-12-pisces.webp
+│   │   │   ├── 652f9fda61be0d27b631b4ef_231016-horoscope-love-4-cancer.webp
+│   │   │   ├── 652f9fda61be0d27b631b4fa_231016-horoscope-clothes-4-cancer.webp
+│   │   │   ├── 652f9fda61be0d27b631b4fe_231016-horoscope-love-12-pisces.webp
+│   │   │   ├── 652f9fda61be0d27b631b503_231016-horoscope-career-12-pisces.webp
+│   │   │   ├── 652f9fda61be0d27b631b5b2_231016-horoscope-v.mars-12-pisces.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c189_231016-horoscope-career-3-gemini.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c19c_231016-horoscope-love-3-gemini.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c19f_231016-horoscope-love-7-libra.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1a2_231016-horoscope-clothes-11-aquarius.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1a5_231016-horoscope-clothes-3-gemini.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1a8_231016-horoscope-clothes-feature.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1ab_231016-horoscope-career-11-aquarius.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1ae_231016-horoscope-v.mars-11-aquarius.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1b6_231016-horoscope-love-11-aquarius.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1d0_231016-horoscope-career-7-libra.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1d3_231016-horoscope-clothes-7-libra.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1d6_231016-horoscope-v.mars-3-gemini.webp
+│   │   │   ├── 652f9ff5a4ed46ff1170c1f9_231016-horoscope-v.mars-7-libra.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935ace_231016-horoscope-clothes-2-taurus.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935ada_231016-horoscope-love-2-taurus.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935ae2_231016-horoscope-career-2-taurus.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935ae7_231016-horoscope-career-10-capricorn.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935aeb_231016-horoscope-love-10-capricorn.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935aee_231016-horoscope-clothes-10-capricorn.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935af2_231016-horoscope-v.mars-10-capricorn.webp
+│   │   │   ├── 652f9ff9ba1640e3fc935b08_231016-horoscope-v.mars-2-taurus.webp
+│   │   │   ├── 652f9ffcfeb86a15de61d3b5_231016-horoscope-love-5-leo.webp
+│   │   │   ├── 652f9ffcfeb86a15de61d3e8_231016-horoscope-career-9-sagittarius.webp
+│   │   │   ├── 652f9ffdfeb86a15de61d3ec_231016-horoscope-love-9-sagittarius.webp
+│   │   │   ├── 652f9ffdfeb86a15de61d3f1_231016-horoscope-clothes-9-sagittarius.webp
+│   │   │   ├── 652f9ffdfeb86a15de61d3f5_231016-horoscope-v.mars-5-leo.webp
+│   │   │   ├── 652f9ffdfeb86a15de61d3f9_231016-horoscope-love-1-aries.webp
+│   │   │   ├── 652f9ffdfeb86a15de61d41a_231016-horoscope-v.mars-9-sagittarius.webp
+│   │   │   ├── 65300faeb2c91e965d33b855_231016-horoscope-career-5-leo-p-1080.webp
+│   │   │   ├── 65300faeb2c91e965d33b855_231016-horoscope-career-5-leo-p-500.webp
+│   │   │   ├── 65300faeb2c91e965d33b855_231016-horoscope-career-5-leo-p-800.webp
+│   │   │   ├── 65300faeb2c91e965d33b855_231016-horoscope-career-5-leo.webp
+│   │   │   ├── 65301015326b33e9f252832a_231016-horoscope-clothes-5-leo-p-1080.webp
+│   │   │   ├── 65301015326b33e9f252832a_231016-horoscope-clothes-5-leo-p-500.webp
+│   │   │   ├── 65301015326b33e9f252832a_231016-horoscope-clothes-5-leo-p-800.webp
+│   │   │   ├── 65301015326b33e9f252832a_231016-horoscope-clothes-5-leo.webp
+│   │   │   ├── 6530113bfbc00908298054e4_231016-horoscope-career-1-aries-p-1080.webp
+│   │   │   ├── 6530113bfbc00908298054e4_231016-horoscope-career-1-aries-p-500.webp
+│   │   │   ├── 6530113bfbc00908298054e4_231016-horoscope-career-1-aries-p-800.webp
+│   │   │   ├── 6530113bfbc00908298054e4_231016-horoscope-career-1-aries.webp
+│   │   │   ├── 6530114d276f81da3e87d143_231016-horoscope-love-1-aries-p-1080.webp
+│   │   │   ├── 6530114d276f81da3e87d143_231016-horoscope-love-1-aries-p-500.webp
+│   │   │   ├── 6530114d276f81da3e87d143_231016-horoscope-love-1-aries-p-800.webp
+│   │   │   ├── 6530114d276f81da3e87d143_231016-horoscope-love-1-aries.webp
+│   │   │   ├── 653038b546c25967bc510841_231016-2-section-design-spectrum.webp
+│   │   │   ├── 653038b546c25967bc510844_231016-2-feature-alignment.webp
+│   │   │   ├── 653038b546c25967bc510847_231016-2-feature-todays-briefing.webp
+│   │   │   ├── 653038b546c25967bc51084a_231016-2-planner-week-1-start.webp
+│   │   │   ├── 653038b546c25967bc510853_231016-2-section-astrofluenced.webp
+│   │   │   ├── 653038b546c25967bc51085a_231016-2-planner-week-3-feature.webp
+│   │   │   ├── 653038b546c25967bc510865_231016-2-planner-week-2-middle.webp
+│   │   │   ├── 653038b546c25967bc510869_231016-2-planner-week-3-end.webp
+│   │   │   ├── 653038b646c25967bc510882_231016-2-portfolio-art-4.webp
+│   │   │   ├── 65309f7bb421145fe5f08412_gpt-blog-thumb-p-1080.webp
+│   │   │   ├── 65309f7bb421145fe5f08412_gpt-blog-thumb-p-500.webp
+│   │   │   ├── 65309f7bb421145fe5f08412_gpt-blog-thumb-p-800.webp
+│   │   │   ├── 65309f7bb421145fe5f08412_gpt-blog-thumb.webp
+│   │   │   ├── 6789e9ddbc6f1dc6f9c0e117_12-pisces-stereotypical-female-digital-illustr-p-1080.webp
+│   │   │   ├── 6789e9ddbc6f1dc6f9c0e117_12-pisces-stereotypical-female-digital-illustr-p-500.webp
+│   │   │   ├── 6789e9ddbc6f1dc6f9c0e117_12-pisces-stereotypical-female-digital-illustr-p-800.webp
+│   │   │   └── 6789e9ddbc6f1dc6f9c0e117_12-pisces-stereotypical-female-digital-illustr.webp
+│   │   ├── js
+│   │   │   └── webflow.ee7ce4c794739b6ac6139dc3f51745e4.js
+│   │   ├── lottie
+│   │   │   ├── 64c7d4bace5a342dfc11a2c8_center-focused-ivy-growth-ui-page-break-animation.lottie
+│   │   │   ├── 64c7d75deb70a956cf7fad2b_end-focused-ivy-growth-animation-ui.lottie
+│   │   │   ├── 64c7da1f0da194efeea8d9da_radiant-diamond-pair-left.lottie
+│   │   │   ├── 64c7da1fbfd0c5d5d665db1d_radiant-diamond-pair-right.lottie
+│   │   │   ├── 64c92486c8b4dfda6d81153e_august-style-brand-text.lottie
+│   │   │   ├── 64c9434d8a60ceb743414e7a_rainbow-arch-menu-ui.lottie
+│   │   │   ├── 64c9d5cfefe08e9b264708aa_august-style-logo-ui-animation.lottie
+│   │   │   ├── 64c9eb594fc24b0a1d62b26b_geometric-ground-plant-animation.lottie
+│   │   │   ├── 64ca139f5011fbc998841b7d_rainbow-bridge.lottie
+│   │   │   ├── 64caa237a47b190a732ddbef_jungle-leaf-art-deco-animated-heading-callout-UI.lottie
+│   │   │   ├── 64dae6a8ca772baa81f62fbd_calligraphic-spiral-diamond.lottie
+│   │   │   ├── 64daebf91d2af4475d9e372f_ornate-calligraphic-page-heading.lottie
+│   │   │   ├── 64daf162f0fa5b555f53dcca_left-turkey-fan.lottie
+│   │   │   ├── 64daf55b19c92a97ddd08337_left-peacock-fan.lottie
+│   │   │   ├── 64daf55bb56ed775d9564a27_peacock-fan.lottie
+│   │   │   ├── 64daf55bbf49c009ffdc57bc_right-peacock-fan.lottie
+│   │   │   ├── 64f103d7260271aab82f4160_today-ui-animation.lottie
+│   │   │   ├── 64f191c78fa7cb48994834c1_rest-of-this-week-daily-chart-reading-ui-animation.lottie
+│   │   │   ├── 64f191c7a440914b4ad3c619_archives-daily-chart-reading-ui-animation.lottie
+│   │   │   ├── 64f1bde272f97d02aeb74914_horoscopes-ui-animation.lottie
+│   │   │   ├── 64f456554266acf96b92b376_art-deco.lottie
+│   │   │   ├── 64f456557a05afc618fb6cb9_brutalism-ui.lottie
+│   │   │   ├── 64f45656233beaba8191104a_mid-century-modern-ui.lottie
+│   │   │   ├── 64f456563a44b053aacd2825_scandinavian-design-ui.lottie
+│   │   │   ├── 64f4565653833484b1551eea_biophilic-design-ui.lottie
+│   │   │   ├── 64f4565653833484b1551f2f_minimalism-ui.lottie
+│   │   │   ├── 64f456566c3460284808df97_maximalism-ui.lottie
+│   │   │   ├── 64f456568a3d2877d18b6c76_sustainable-design-ui.lottie
+│   │   │   ├── 64f45656c6cb32a56475581b_bauhaus-ui.lottie
+│   │   │   ├── 64f45656c9a2047edb9c178c_pop-art-ui.lottie
+│   │   │   ├── 64f45656d38f6886e55da7eb_industrial-design-ui.lottie
+│   │   │   ├── 64f45656f762b614242a5b03_postmodernism-ui.lottie
+│   │   │   ├── 65052b0219ad47b83f793734_aries.lottie
+│   │   │   ├── 65053180c5b543a1ec9d7f6b_todays-animated-ui-callout.lottie
+│   │   │   ├── 651042600f4265348562f868_astro-planner-energy-forecast-ui.lottie
+│   │   │   └── 6512b48c40949bdca6eb1238_retro-art-deco-fan-animated-ui.lottie
+│   │   └── replacement_images
+│   │       ├── gemini.webp
+│   │       ├── leo.webp
+│   │       ├── sagittarius.webp
+│   │       └── taurus.webp
+│   ├── images
+│   │   ├── 643d81cd5f1dd3c0132c541a_logo-favicon-glamazon.png
+│   │   ├── 643d81d1233ed3a19191b232_logo-webclip-glamazon.png
+│   │   ├── 64b0ea11635cb0e2d0b05213_flamingo-zebra-brand-art.webp
+│   │   ├── 64ca4f50200bbcbfa53d8330_daily-outfit-wear-today-recommendations-astrology-reading.webp
+│   │   ├── 64ca4f502bfb5684e0a441f8_week-start-astrology-reading-updated-tips-activities.webp
+│   │   ├── 64ca4f50349e96da13d06171_daily-horoscope-astrology-reading-updated.webp
+│   │   ├── 64ca4f506dc4e44b54fefe32_daily-venus-mars-influence-astrology-reading-updated.webp
+│   │   ├── 64ca4f506dc4e44b54fefe5f_weekend-astrology-reading-updated-tips-activities.webp
+│   │   ├── 64ca4f508c50385b0a339129_daily-career-outlook-astrology-reading-updated.webp
+│   │   ├── 64ca4f50d32cd5f640c39c40_daily-love-outlook-astrology-reading-updated.webp
+│   │   ├── 64ca4f50e2148bffbf55b1fc_week-middle-get-through-astrology-reading-updated-tips-activities.webp
+│   │   ├── 64db8d1659fa7d8ee204648b_thumb.rael-fratello-3d-printed-mud-structures-southwestern-usa-2020.webp
+│   │   ├── 64db8d1659fa7d8ee2046496_full.rael-fratello-3d-printed-mud-structures-southwestern-usa-2020.webp
+│   │   ├── 64db8d1659fa7d8ee204649a_full.olkowski-integral-urban-house-sustainable-architecture-berkeley-usa-1973.webp
+│   │   ├── 64db8d1659fa7d8ee204649e_full.bill-dunster-bedzed-eco-friendly-architecture-london-uk-2002.webp
+│   │   ├── 64db8d18aa7753db8385cf73_thumb.renzo-piano-ca-academy-architecture-living-roof-sf-usa-2008.webp
+│   │   ├── 64db8d18aa7753db8385cf8d_full.pawel-lipinski-mateusz-frankowski-mashambas-architecture-agriculture-africa-2017.webp
+│   │   ├── 64db8d18aa7753db8385cf90_full.richard-rogers-helicon-building-architecture-with-integrated-greenery-london-uk-1984.webp
+│   │   ├── 64db8d18aa7753db8385cf94_full.renzo-piano-ca-academy-architecture-living-roof-sf-usa-2008.webp
+│   │   ├── 64db8d1a2546910c930be35b_full.henry-dreyfuss-model-phonograph-wood-metal-camden-usa-1925.webp
+│   │   ├── 64db8d1a2546910c930be360_full.eliot-noyes-selectric-typewriter-plastic-metal-new-york-usa-1961.webp
+│   │   ├── 64db8d1a2546910c930be363_full.apple-design-team-apple-macintosh-portable-plastic-electronics-cupertino-usa-1989.webp
+│   │   ├── 64db8d1a2546910c930be367_thumb.eliot-noyes-selectric-typewriter-plastic-metal-new-york-usa-1961.webp
+│   │   ├── 64db8d1cee99da927457fd70_thumb.jeff-koons-michael-jackson-bubbles-porcelain-new-york-usa-1988.webp
+│   │   ├── 64db8d1cee99da927457fd74_full.robert-venturi-complexity-contradiction-architecture-book-philadelphia-usa-1967.webp
+│   │   ├── 64db8d1cee99da927457fd79_full.yinka-shonibare-diary-victorian-dandy-photo-series-london-uk-1997.webp
+│   │   ├── 64db8d1cee99da927457fd7c_full.jeff-koons-michael-jackson-bubbles-porcelain-new-york-usa-1988.webp
+│   │   ├── 64db8d1e114038d73389b239_full.le-corbusier-unite-dhabitation-reinforced-concrete-marseille-france-1952.webp
+│   │   ├── 64db8d1e114038d73389b23c_thumb.le-corbusier-unite-dhabitation-reinforced-concrete-marseille-france-1952.webp
+│   │   ├── 64db8d1e114038d73389b23f_full.erno-goldfinger-trellick-tower-reinforced-concrete-london-uk-1980_copy.webp
+│   │   ├── 64db8d1e114038d73389b242_full.kallmann-mckinnell-knowles-boston-city-hall-concrete-boston-usa-1968.webp
+│   │   ├── 64db8d1fd99e08ea2d63b0fa_full.hans-j-wegner-ch24-wishbone-chair-wood-natural-cord-denmark-1950.webp
+│   │   ├── 64db8d1fd99e08ea2d63b0fe_thumb.hans-j-wegner-ch24-wishbone-chair-wood-natural-cord-denmark-1950.webp
+│   │   ├── 64db8d1fd99e08ea2d63b102_full.eero-aarnio-puppy-polyethylene-plastic-finland-1987.webp
+│   │   ├── 64db8d1fd99e08ea2d63b106_full.alvar-aalto-savoy-vase-blown-glass-finland-1936.webp
+│   │   ├── 64db8d21477fe9209e57aa5e_full.ludwig-mies-van-der-rohe-barcelona-chair-steel-spain-1937.webp
+│   │   ├── 64db8d21477fe9209e57aa62_thumb.marcel-breuer-wassily-chair-tubular-steel-fabric-dessau-germany-1925.webp
+│   │   ├── 64db8d21477fe9209e57aa66_full.walter-gropius-bauhaus-dessau-building-architecture-dessau-germany-1926.webp
+│   │   ├── 64db8d21477fe9209e57aa6a_full.marcel-breuer-wassily-chair-tubular-steel-fabric-dessau-germany-1925.webp
+│   │   ├── 64db8d2309f5c03382b74475_thumb.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925.jpeg
+│   │   ├── 64db8d2309f5c03382b744bf_full.william-van-alen-chrysler-building-steel-masonry-new-york-1930.webp
+│   │   ├── 64db8d2309f5c03382b744e9_full.andre-mare-louis-sue-cubist-pavilion-mixed-media-installation-paris-1925.jpeg
+│   │   ├── 64db8d2309f5c03382b744ed_full.tamara-de-lempicka-portrait-mrs-bush-oil-canvas-mexico-city-1943.webp
+│   │   ├── 64db8d2409f5c03382b7458e_thumb.florence-knoll-sofa-model-2550-leather-chrome-pennsylvania-1972.webp
+│   │   ├── 64db8d2409f5c03382b74592_full.eero-saarinen-tulip-chair-fiberglass-aluminum-michigan-1965.webp
+│   │   ├── 64db8d2409f5c03382b74596_full.florence-knoll-sofa-model-2550-leather-chrome-pennsylvania-1972.webp
+│   │   ├── 64db8d2509f5c03382b7459a_full.charles-ray-eames-lounge-chair-leather-wood-los-angeles-1956.webp
+│   │   ├── 64db8d26beb9a3376063bb31_thumb.yinka-shonibare-double-dutch-wax-cotton-london-1992.webp
+│   │   ├── 64db8d26beb9a3376063bb35_full.yinka-shonibare-double-dutch-wax-cotton-london-1992.webp
+│   │   ├── 64db8d26beb9a3376063bb39_full.judy-chicago-dinner-party-mixed-media-brooklyn-1979.webp
+│   │   ├── 64db8d26beb9a3376063bb3d_full.jeff-koons-rabbit-stainless-steel-new-york-1986.webp
+│   │   ├── 64db8d2759fa7d8ee2046e8c_thumb.agnes-martin-untitled-1-acrylic-graphite-canvas-new-mexico-1973.webp
+│   │   ├── 64db8d2759fa7d8ee2046e90_full.agnes-martin-untitled-1-acrylic-graphite-canvas-new-mexico-1973_copy.webp
+│   │   ├── 64db8d2759fa7d8ee2046e94_full.tony-smith-die-steel-new-york-1960.webp
+│   │   ├── 64db8d2859fa7d8ee2046e98_full.donald-judd-untitled-stack-galvanized-iron-new-york-1967.webp
+│   │   ├── 64db8d29477fe9209e57ab77_thumb.roy-lichtenstein-still-life-goldfish-bowl-oil-magna-canvas-new-york-1972.webp
+│   │   ├── 64db8d29477fe9209e57ab7b_full.roy-lichtenstein-still-life-goldfish-bowl-oil-magna-canvas-new-york-1972.webp
+│   │   ├── 64db8d29477fe9209e57ab7f_full.andy-warhol-brillo-boxes-silkscreen-ink-house-paint-plywood-new-york-1964.webp
+│   │   ├── 64db8d29477fe9209e57ab83_full.jasper-johns-flag-encaustic-on-canvas-new-york-1958.webp
+│   │   ├── 64dcc1ec0cad0f78bc4fd9a5_cheetah-neck gaiter.webp
+│   │   ├── 64dcc1ec25c96820d24426d1_cheetah-swim trunks.webp
+│   │   ├── 64dcc1ec7e88f1f1ca55c510_cheetah-shirt dress.webp
+│   │   ├── 64dcc1ec888946034e94c5c9_cheetah-bikini top.webp
+│   │   ├── 64dcc1ec9fc4a491479cdac6_cheetah-iphone case.webp
+│   │   ├── 64dcc1ece605e212c6e0dee6_cheetah-pet food placemat.webp
+│   │   ├── 64dcc1ecee5031f6f408e87a_cheetah-apple watch wrist band.webp
+│   │   ├── 64dcc1ed0cfc1c9b6d96bf7f_cheetah-table lamp.webp
+│   │   ├── 64dcc1ed0f76ea4971303c0a_cheetah-womens fitted tee.webp
+│   │   ├── 64dcc1ed21257128d0db6585_cheetah-tights.webp
+│   │   ├── 64dcc1ed25c96820d2442832_cheetah-tall canteen.webp
+│   │   ├── 64dcc1ed63b3e08fbddad424_cheetah-pet hoodie.webp
+│   │   ├── 64dcc1ed63b3e08fbddad459_cheetah-skater skirt.webp
+│   │   ├── 64dcc1ed888946034e94c640_cheetah-table runner.webp
+│   │   ├── 64dcc1ed9a7b90a2b3155cd8_cheetah-t shirt.webp
+│   │   ├── 64dcc1eddc475efb34f602b8_cheetah-throw pillow.webp
+│   │   ├── 64dcc1edeac64869d365aaab_cheetah-tufted floor pillow.webp
+│   │   ├── 64dcc1edeff76ee8aa62a849_cheetah-vanity plate.webp
+│   │   ├── 64dcc1ee32a2514bd5f12665_cheetah-wide canteen.webp
+│   │   ├── 64dcc1efe3175bfdb7f2fa67_cheetah-throw rug.webp
+│   │   ├── 64e5df28a294f24fa4e957d5_1-golden-frame-v2-sm.webp
+│   │   ├── 64e5ed612820e6e33ee2cf91_skeleton-prayer-R.webp
+│   │   ├── 64e5ed61f2c7f1fe46367039_skeleton-prayer-L.webp
+│   │   ├── 64f471464266acf96ba633ae_pop-art-contemporary-interpretation.webp
+│   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation.webp
+│   │   ├── 64f47146d23cc794394e3c9d_sustainable-eco-friendly-design.webp
+│   │   ├── 64f47146d38f6886e57166bc_minimalism-contemporary-concept-contemporary-interpretation.webp
+│   │   ├── 64f47146e5685905adf28609_brutalism-futurism-style-of-contemporary.webp
+│   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation.webp
+│   │   ├── 64f47146e5685905adf2864a_postmodernism-contemporary-futurism.webp
+│   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation.webp
+│   │   ├── 6510d15e440d694e09e77003_chat-gpt-writes-astrology.webp
+│   │   ├── 65112b9c313368a91c7556f8_chat-gpt-writes-astrology-4.webp
+│   │   ├── 65112c238d8f2eacbd71ca0c_chat-gpt-writes-astrology-6.webp
+│   │   ├── 65112c5b216f3bd571979630_chat-gpt-writes-astrology-7.webp
+│   │   ├── 651137e185a0923c3787591f_chat-gpt-writes-astrology-9.webp
+│   │   ├── 651137fb50d46c486f094099_chat-gpt-writes-astrology-8.webp
+│   │   ├── 65114521d9d3260d5d15aa17_gpt-on-his-asto-expertise-1.webp
+│   │   ├── 651145749919b1e21834a8eb_gpt-on-his-asto-expertise-2.webp
+│   │   ├── 651279aff2ed6d97e954891c_05-ai-tool-astrology-illustrated-chat-gpt-blog.webp
+│   │   ├── 65127a34d27506a6fca1451a_07-ai-tool-astrology-illustrated-chat-gpt-blog.webp
+│   │   ├── 6512b841d27506a6fcd886d2_01-astrology-symbol-aries.webp
+│   │   ├── 6512b8421da5ba396714f060_12-astrology-symbol-pisces.webp
+│   │   ├── 6512b842423604a90534af8e_07-astrology-symbol-libra.webp
+│   │   ├── 6512b8425cff822a6374c7dd_05-astrology-symbol-leo.webp
+│   │   ├── 6512b8426fcbaf25c3b08f92_09-astrology-symbol-sagittarius.webp
+│   │   ├── 6512b8427ba1f307048c953e_06-astrology-symbol-virgo.webp
+│   │   ├── 6512b8427ba1f307048c955b_08-astrology-symbol-scorpio.webp
+│   │   ├── 6512b8427c831a5d0013051f_03-astrology-symbol-gemini.webp
+│   │   ├── 6512b842c50e78dccaed8451_10-astrology-symbol-capricorn.webp
+│   │   ├── 6512b842c85b87ef6a6da38d_04-astrology-symbol-cancer.webp
+│   │   ├── 6512b842e403a9b3502175d1_02-astrology-symbol-taurus.webp
+│   │   ├── 6512b842efea6a0dc5f8de35_11-astrology-symbol-aquarius.webp
+│   │   ├── 65155d9f3573905639178b03_3-gemini-stereotypical-male-digital-illustration.webp
+│   │   ├── 65155d9fb5d4e0cd5498f52d_5-leo-stereotypical-male-digital-illustration.webp
+│   │   ├── 65155d9fb5d4e0cd5498f564_1-aries-male-stereotypical-digital-illustration.webp
+│   │   ├── 65155d9fdd9f802e32cae195_4-cancer-stereotypical-female-digital-illustration.webp
+│   │   ├── 65155d9fefee45f6603e95c2_8-scorpio-stereotypical-female-digital-illustration.webp
+│   │   ├── 65155d9ff351b942765c25d0_10-capricorn-stereotypical-female-digital-illustration.webp
+│   │   ├── 65155da07014815a802f17e1_11-aquarius-stereotypical-male-digital-illustration.webp
+│   │   ├── 65155da12ad46b62a971387c_12-pisces-stereotypical-female-digital-illustration.webp
+│   │   ├── 65155da25846242aa10c3950_7-libra-stereotypical-female-digital-illustration.webp
+│   │   ├── 65158ca2109bea7dcf30b4a6_1-aries-stereotypical-female-digital-illustration.webp
+│   │   ├── 65158ca24d4f245d9658aa32_9-sagittarius-stereotypical-female-digital-illustration.webp
+│   │   ├── 65158ca3de426227cee9a76c_6-virgo-stereotypical-male-digital-illustration.webp
+│   │   ├── 6515e09331e4c2cf477ad3c2_2-taurus-stereotypical-female-digital-illustration.webp
+│   │   ├── 6519dcb1b1dcac41b5abeebd_10-02-2023-internal.webp
+│   │   ├── 6519dcb1b1dcac41b5abeec1_10-02-2023-external.webp
+│   │   ├── 6519dcb1b1dcac41b5abeed7_10-02-2023-alignment.webp
+│   │   ├── 6519e1c3ba01c1e23430833e_09-25-2023-sagittarius-horoscope collection.webp
+│   │   ├── 6519e262b2d820de93ef9144_09-25-2023-leo-horoscope collection.webp
+│   │   ├── 6519e29e538e0b47baf4482c_09-25-2023-gemini-horoscope collection.webp
+│   │   ├── 6519e2b9f5bb2df8dd5d4711_09-25-2023-taurus-horoscope collection.webp
+│   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly.webp
+│   │   ├── 651bec91da53cdd302a56d85_home-urban-yoga-encouraging.webp
+│   │   ├── 651becb8ecf64d9a2c50d1a4_home-pop-art-contemporary-interpretation.webp
+│   │   ├── 651bece4d055d6e8940a1723_home-beach-oil-painting.webp
+│   │   ├── 651bed0af84be606f8f17265_home-self-care-quirky-android.webp
+│   │   ├── 651bef868244c77a2a32168e_home-urban-street.webp
+│   │   ├── 651bf185d01f3c5e70a779fb_home-expansive-unexpected-conflict.webp
+│   │   ├── 651bf1a0b6fe57b91e02b090_home-child-cloud-painting.webp
+│   │   ├── 651bf1afb6fe57b91e02c1af_home-deer-rack-painting.webp
+│   │   ├── 651bf3a7326f41a7abbce675_home-photo-beach.webp
+│   │   ├── 651c80e60820051e74fd0948_industrial-design-5.webp
+│   │   ├── 651c80e60c5a7f3854093276_industrial-design-3.webp
+│   │   ├── 651c80e6950d6222fdab0092_industrial-design-4.webp
+│   │   ├── 651c80e6c5fe9a38503219af_industrial-design-2.webp
+│   │   ├── 651c80e6ca764ac9eec5fe41_industrial-design-1.webp
+│   │   ├── 651c824603bb8d3d264c33cc_sustainable-eco-friendly-design-3.webp
+│   │   ├── 651c824662c8fbff74980841_sustainable-eco-friendly-design-6.webp
+│   │   ├── 651c8246bb0bc404945a9b4d_sustainable-eco-friendly-design-2.webp
+│   │   ├── 651c8246d6cde98472ec2350_sustainable-eco-friendly-design-5.webp
+│   │   ├── 651c8246e21ed1b31c0e0a8e_sustainable-eco-friendly-design-4.webp
+│   │   ├── 651c831a6a856b0f0d438fa4_biophilic-besign-1.webp
+│   │   ├── 651c831a9d81b9ae2ac4edf2_biophilic-besign-2.webp
+│   │   ├── 651c843b4642fda41bb84c57_postmodernism-1.webp
+│   │   ├── 651c843c821c693bc4881ec4_postmodernism-3.webp
+│   │   ├── 651c852c4b47dc41ad230668_brutalism-6.webp
+│   │   ├── 651c852c617729c903dec9ed_brutalism-1.webp
+│   │   ├── 651c852c62c8fbff749b8989_brutalism-4.webp
+│   │   ├── 651c852cdcf442d929e3e5b7_brutalism-3.webp
+│   │   ├── 651c852cdcf442d929e3e5ba_brutalism-2.webp
+│   │   ├── 651c867a027e38c699d751ca_scandinavian-design-7.webp
+│   │   ├── 651c867a230e07d5b1162854_scandinavian-design-6.webp
+│   │   ├── 651c867a821c693bc48af463_scandinavian-design-8.webp
+│   │   ├── 651c867a9a743fdde6343cd9_scandinavian-design-2.webp
+│   │   ├── 651c867a9a743fdde6343ce4_scandinavian-design-5.webp
+│   │   ├── 651c867a9a743fdde6343d2a_scandinavian-design-4.webp
+│   │   ├── 651c867ae21ed1b31c130167_scandinavian-design-3.webp
+│   │   ├── 651c87b2972670d7153107e8_bauhaus-3.webp
+│   │   ├── 651c87b29d81b9ae2ac9fa38_bauhaus-1.webp
+│   │   ├── 651c87b2a3a77ae00461483f_bauhaus-5.webp
+│   │   ├── 651c87b2ca764ac9eece4c6b_bauhaus-2.webp
+│   │   ├── 651c87b3c766dfd6770aff9a_bauhaus-4.webp
+│   │   ├── 651c8912027e38c699da21a5_art-deco-3.webp
+│   │   ├── 651c89120c5a7f38541267c3_art-deco-1.webp
+│   │   ├── 651c8912617729c903e2d273_art-deco-5.webp
+│   │   ├── 651c89127994a3d05d513fb9_art-deco-6.webp
+│   │   ├── 651c891281b09c8d5b33197a_art-deco-4.webp
+│   │   ├── 651c891281b09c8d5b3319f7_art-deco-8.webp
+│   │   ├── 651c8912c5fe9a38503c589d_art-deco-2.webp
+│   │   ├── 651c8912ca764ac9eecfcd6d_art-deco-10.webp
+│   │   ├── 651c8912dcf442d929e83a7b_art-deco-7.webp
+│   │   ├── 651c89130954524d3e942f48_art-deco-9.webp
+│   │   ├── 651c8ab80c5a7f38541449d3_mid-century-modern-3.webp
+│   │   ├── 651c8ab86a856b0f0d4c03f6_mid-century-modern-1.webp
+│   │   ├── 651c8ab876bdb1c73c88d6a1_mid-century-modern-2.webp
+│   │   ├── 651c8ab8bb0bc40494642550_mid-century-modern-5.webp
+│   │   ├── 651c8ab8c7a7f650f1c21f37_mid-century-modern-4.webp
+│   │   ├── 651c8be005e41b56aae76f6e_maximalism-1.webp
+│   │   ├── 651c8be085bd607941e1f5ec_maximalism-6.webp
+│   │   ├── 651c8be09d81b9ae2acec0b4_maximalism-4.webp
+│   │   ├── 651c8be0c7a7f650f1c36fe2_maximalism-3.webp
+│   │   ├── 651c8be0c7a7f650f1c36fe9_maximalism-2.webp
+│   │   ├── 651c8d0b16b917f97d3fed38_5-minimalism.webp
+│   │   ├── 651c8d0b518015eb04fd9cd2_7-minimalism.webp
+│   │   ├── 651c8d0b6a856b0f0d4e81e8_2-minimalism.webp
+│   │   ├── 651c8d0b6a856b0f0d4e81ee_3-minimalism.webp
+│   │   ├── 651c8d0b7994a3d05d55b33c_6-minimalism.webp
+│   │   ├── 651c8d0be21ed1b31c1b01c3_1-minimalism.webp
+│   │   ├── 651c8e256a856b0f0d4fc66e_4-pop-art.webp
+│   │   ├── 651c8e25821c693bc49356bf_1-pop-art.webp
+│   │   ├── 651c8e25bb0bc40494679e81_3-pop-art.webp
+│   │   ├── 651c8e25c5fe9a385041a3d7_6-pop-art.webp
+│   │   ├── 651c8e25c766dfd6771228f4_5-pop-art.webp
+│   │   ├── 651fd2fe72a75899e979802b_home-portfolio-02.webp
+│   │   ├── 651fd3044d28b81b1e953782_home-portfolio-03.webp
+│   │   ├── 651fd30976412162470b0a9d_home-portfolio-04.webp
+│   │   ├── 65234940d528f3ff959c69f1_2023-10-15-art.webp
+│   │   ├── 65234940d528f3ff959c69f5_2023-10-15-1400-gmt-sunday-astrology-chart.webp
+│   │   ├── 65234942f5ae5bc3f780cefd_2023-10-14-art.webp
+│   │   ├── 65234942f5ae5bc3f780cf01_2023-10-14-1400-gmt-saturday-astrology-chart.webp
+│   │   ├── 652349475ed77d271e0f9592_2023-10-13-1400-gmt-friday-astrology-chart.webp
+│   │   ├── 652349475ed77d271e0f959c_2023-10-13-art.webp
+│   │   ├── 6523494ffe68096810f286f1_2023-10-11-1400-gmt-wednesday-astrology-chart.webp
+│   │   ├── 6523494ffe68096810f286f4_2023-10-11-art.webp
+│   │   ├── 652349517bd704342e185bd2_2023-10-10-1400-gmt-tuesday-astrology-chart.webp
+│   │   ├── 652349517bd704342e185dd6_2023-10-10-art.webp
+│   │   ├── 652c0eefb28a24a88d47e2ae_2023-10-26-1400-gmt-thursday-astrology-chart.webp
+│   │   ├── 652c0eefb28a24a88d47e2b1_2023-10-26-art.webp
+│   │   ├── 652c0f91e89ae4ccd1a9d0f1_2023-10-25-1400-gmt-wednesday-astrology-chart.webp
+│   │   ├── 652c0f91e89ae4ccd1a9d0f9_2023-10-25-art.webp
+│   │   ├── 652c0ffccc73f5399b09dac6_2023-10-24-1400-gmt-tuesday-astrology-chart.webp
+│   │   ├── 652c0ffccc73f5399b09dac9_2023-10-24-art.webp
+│   │   ├── 652c113998d0347e12f90447_2023-10-23-1400-gmt-monday-astrology-chart.webp
+│   │   ├── 652c113998d0347e12f9044a_2023-10-23-art.webp
+│   │   ├── 652c1226ebc991c32ecf610a_2023-10-22-art.webp
+│   │   ├── 652c1227ebc991c32ecf6135_2023-10-22-1400-gmt-sunday-astrology-chart.webp
+│   │   ├── 652c1359659b8c3f18eb2721_2023-10-21-art.webp
+│   │   ├── 652c1359659b8c3f18eb2760_2023-10-21-1400-gmt-saturday-astrology-chart.webp
+│   │   ├── 652c14896f2eee9ad5006a5e_2023-10-20-art.webp
+│   │   ├── 652c14896f2eee9ad5006a6e_2023-10-20-1400-gmt-friday-astrology-chart.webp
+│   │   ├── 652c175b9579c3d31d541c5e_2023-10-19-1400-gmt-thursday-astrology-chart.webp
+│   │   ├── 652c175b9579c3d31d541c61_2023-10-19-art.webp
+│   │   ├── 652c1890b9e1b1174247e246_2023-10-18-1400-gmt-wednesday-astrology-chart.webp
+│   │   ├── 652c1890b9e1b1174247e249_2023-10-18-art.webp
+│   │   ├── 652c19be98d0347e1204000f_2023-10-17-1400-gmt-tuesday-astrology-chart.webp
+│   │   ├── 652c19be98d0347e12040012_2023-10-17-art.webp
+│   │   ├── 652c1af5668035544eba7f06_2023-10-16-art.webp
+│   │   ├── 652c1af5668035544eba7f24_2023-10-16-1400-gmt-monday-astrology-chart.webp
+│   │   ├── 652f9fda61be0d27b631b4de_231016-horoscope-v.mars-4-cancer.webp
+│   │   ├── 652f9fda61be0d27b631b4e1_231016-horoscope-career-4-cancer.webp
+│   │   ├── 652f9fda61be0d27b631b4ea_231016-horoscope-clothes-12-pisces.webp
+│   │   ├── 652f9fda61be0d27b631b4ef_231016-horoscope-love-4-cancer.webp
+│   │   ├── 652f9fda61be0d27b631b4fa_231016-horoscope-clothes-4-cancer.webp
+│   │   ├── 652f9fda61be0d27b631b4fe_231016-horoscope-love-12-pisces.webp
+│   │   ├── 652f9fda61be0d27b631b503_231016-horoscope-career-12-pisces.webp
+│   │   ├── 652f9fda61be0d27b631b5b2_231016-horoscope-v.mars-12-pisces.webp
+│   │   ├── 652f9ff5a4ed46ff1170c189_231016-horoscope-career-3-gemini.webp
+│   │   ├── 652f9ff5a4ed46ff1170c19c_231016-horoscope-love-3-gemini.webp
+│   │   ├── 652f9ff5a4ed46ff1170c19f_231016-horoscope-love-7-libra.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1a2_231016-horoscope-clothes-11-aquarius.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1a5_231016-horoscope-clothes-3-gemini.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1a8_231016-horoscope-clothes-feature.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1ab_231016-horoscope-career-11-aquarius.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1ae_231016-horoscope-v.mars-11-aquarius.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1b6_231016-horoscope-love-11-aquarius.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1d0_231016-horoscope-career-7-libra.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1d3_231016-horoscope-clothes-7-libra.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1d6_231016-horoscope-v.mars-3-gemini.webp
+│   │   ├── 652f9ff5a4ed46ff1170c1f9_231016-horoscope-v.mars-7-libra.webp
+│   │   ├── 652f9ff9ba1640e3fc935ace_231016-horoscope-clothes-2-taurus.webp
+│   │   ├── 652f9ff9ba1640e3fc935ada_231016-horoscope-love-2-taurus.webp
+│   │   ├── 652f9ff9ba1640e3fc935ae2_231016-horoscope-career-2-taurus.webp
+│   │   ├── 652f9ff9ba1640e3fc935ae7_231016-horoscope-career-10-capricorn.webp
+│   │   ├── 652f9ff9ba1640e3fc935aeb_231016-horoscope-love-10-capricorn.webp
+│   │   ├── 652f9ff9ba1640e3fc935aee_231016-horoscope-clothes-10-capricorn.webp
+│   │   ├── 652f9ff9ba1640e3fc935af2_231016-horoscope-v.mars-10-capricorn.webp
+│   │   ├── 652f9ff9ba1640e3fc935b08_231016-horoscope-v.mars-2-taurus.webp
+│   │   ├── 652f9ffcfeb86a15de61d3b5_231016-horoscope-love-5-leo.webp
+│   │   ├── 652f9ffcfeb86a15de61d3e8_231016-horoscope-career-9-sagittarius.webp
+│   │   ├── 652f9ffdfeb86a15de61d3ec_231016-horoscope-love-9-sagittarius.webp
+│   │   ├── 652f9ffdfeb86a15de61d3f1_231016-horoscope-clothes-9-sagittarius.webp
+│   │   ├── 652f9ffdfeb86a15de61d3f5_231016-horoscope-v.mars-5-leo.webp
+│   │   ├── 652f9ffdfeb86a15de61d3f9_231016-horoscope-love-1-aries.webp
+│   │   ├── 652f9ffdfeb86a15de61d41a_231016-horoscope-v.mars-9-sagittarius.webp
+│   │   ├── 65300faeb2c91e965d33b855_231016-horoscope-career-5-leo.webp
+│   │   ├── 65301015326b33e9f252832a_231016-horoscope-clothes-5-leo.webp
+│   │   ├── 6530113bfbc00908298054e4_231016-horoscope-career-1-aries.webp
+│   │   ├── 6530114d276f81da3e87d143_231016-horoscope-love-1-aries.webp
+│   │   ├── 653038b546c25967bc510841_231016-2-section-design-spectrum.webp
+│   │   ├── 653038b546c25967bc510844_231016-2-feature-alignment.webp
+│   │   ├── 653038b546c25967bc510847_231016-2-feature-todays-briefing.webp
+│   │   ├── 653038b546c25967bc51084a_231016-2-planner-week-1-start.webp
+│   │   ├── 653038b546c25967bc510853_231016-2-section-astrofluenced.webp
+│   │   ├── 653038b546c25967bc51085a_231016-2-planner-week-3-feature.webp
+│   │   ├── 653038b546c25967bc510865_231016-2-planner-week-2-middle.webp
+│   │   ├── 653038b546c25967bc510869_231016-2-planner-week-3-end.webp
+│   │   ├── 653038b646c25967bc510882_231016-2-portfolio-art-4.webp
+│   │   ├── 65309f7bb421145fe5f08412_gpt-blog-thumb.webp
+│   │   ├── 6789e9ddbc6f1dc6f9c0e117_12-pisces-stereotypical-female-digital-illustr.webp
+│   │   ├── artist-interpretations
+│   │   │   ├── 2024-01-11 Art Deco Influence _ Legacy image 1.png
+│   │   │   ├── 2024-01-11 Art Deco Influence _ Legacy image 2.png
+│   │   │   ├── 2024-01-11 Art Deco Influence _ Legacy image 3.png
+│   │   │   ├── 64f47145ab86dd89fd7da4c0_bauhaus-contemporary-future-interpretation.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation-p-1080.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation-p-500.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation-p-800.webp
+│   │   │   ├── 64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation-p-1080.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation-p-500.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation-p-800.webp
+│   │   │   ├── 64f47146e5685905adf2862a_mid-century-modern-contemporary-concept-interpretation.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation-p-1080.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation-p-500.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation-p-800.webp
+│   │   │   ├── 64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly-p-1080.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly-p-500.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly-p-800.webp
+│   │   │   ├── 651bec167142a1cf38575162_home-earth-architecture-friendly.webp
+│   │   │   ├── 651c8912027e38c699da21a5_art-deco-3.webp
+│   │   │   ├── 651c89127994a3d05d513fb9_art-deco-6.webp
+│   │   │   ├── 651c891281b09c8d5b33197a_art-deco-4.webp
+│   │   │   ├── 651c8912ca764ac9eecfcd6d_art-deco-10.webp
+│   │   │   ├── 651c8912dcf442d929e83a7b_art-deco-7.webp
+│   │   │   ├── 651c89130954524d3e942f48_art-deco-9.webp
+│   │   │   ├── art-deco-651c8912027e38c699da21a5_art-deco-3.webp
+│   │   │   ├── art-deco-651c89120c5a7f38541267c3_art-deco-1.webp
+│   │   │   ├── art-deco-651c89127994a3d05d513fb9_art-deco-6.webp
+│   │   │   ├── art-deco-651c891281b09c8d5b33197a_art-deco-4.webp
+│   │   │   ├── art-deco-651c891281b09c8d5b3319f7_art-deco-8.webp
+│   │   │   ├── art-deco-651c8912c5fe9a38503c589d_art-deco-2.webp
+│   │   │   ├── art-deco-651c8912ca764ac9eecfcd6d_art-deco-10.webp
+│   │   │   ├── art-deco-651c8912dcf442d929e83a7b_art-deco-7.webp
+│   │   │   ├── art-deco-651c89130954524d3e942f48_art-deco-9.webp
+│   │   │   ├── biophilic 00 1.3 art.webp
+│   │   │   ├── biophilic 03 3 art.webp
+│   │   │   ├── biophilic 04 4 art.webp
+│   │   │   ├── biophilic 06 2 art.webp
+│   │   │   ├── biophilic 06 3 art.webp
+│   │   │   ├── biophilic 07 1.3 art.webp
+│   │   │   ├── brutalism 00 1.3 art.webp
+│   │   │   ├── brutalism 04 4 art.webp
+│   │   │   ├── brutalism 06 2 art.webp
+│   │   │   ├── brutalism 06 3 art.webp
+│   │   │   ├── brutalism 07 1.3 art.webp
+│   │   │   └── brutalism 09 5 art.webp
+│   │   ├── horoscope-types
+│   │   │   ├── cash-flow.webp
+│   │   │   ├── daily-classic.webp
+│   │   │   ├── love-predictions.webp
+│   │   │   ├── outfit-guide.webp
+│   │   │   ├── venus-mars.webp
+│   │   │   └── weekend-reading.webp
+│   │   ├── visual-timelines
+│   │   │   ├── art-deco-651c8912027e38c699da21a5_art-deco-3.webp
+│   │   │   ├── art-deco-651c89127994a3d05d513fb9_art-deco-6.webp
+│   │   │   ├── art-deco-651c891281b09c8d5b33197a_art-deco-4.webp
+│   │   │   ├── art-deco-651c8912ca764ac9eecfcd6d_art-deco-10.webp
+│   │   │   ├── art-deco-651c8912dcf442d929e83a7b_art-deco-7.webp
+│   │   │   ├── art-deco-651c89130954524d3e942f48_art-deco-9.webp
+│   │   │   ├── bauhaus-64db8d21477fe9209e57aa66_full.walter-gropius-bauhaus-dessau-building-architecture-dessau-germany-1926.webp
+│   │   │   ├── bauhaus-651c87b2972670d7153107e8_bauhaus-3.webp
+│   │   │   ├── bauhaus-651c87b29d81b9ae2ac9fa38_bauhaus-1.webp
+│   │   │   ├── bauhaus-651c87b2a3a77ae00461483f_bauhaus-5.webp
+│   │   │   ├── bauhaus-651c87b2ca764ac9eece4c6b_bauhaus-2.webp
+│   │   │   ├── bauhaus-651c87b3c766dfd6770aff9a_bauhaus-4.webp
+│   │   │   ├── biophilic 00 1.3 art.webp
+│   │   │   ├── biophilic 06 2 art.webp
+│   │   │   ├── biophilic 06 3 art.webp
+│   │   │   ├── biophilic 07 1.3 art.webp
+│   │   │   ├── biophilic-651c831a6a856b0f0d438fa4_biophilic-besign-1.webp
+│   │   │   ├── biophilic-651c831a9d81b9ae2ac4edf2_biophilic-besign-2.webp
+│   │   │   ├── brutalism-64f47146e5685905adf28609_brutalism-futurism-style-of-contemporary.webp
+│   │   │   ├── brutalism-651c852c4b47dc41ad230668_brutalism-6.webp
+│   │   │   ├── brutalism-651c852c617729c903dec9ed_brutalism-1.webp
+│   │   │   ├── brutalism-651c852c62c8fbff749b8989_brutalism-4.webp
+│   │   │   ├── brutalism-651c852cdcf442d929e3e5b7_brutalism-3.webp
+│   │   │   ├── brutalism-651c852cdcf442d929e3e5ba_brutalism-2.webp
+│   │   │   ├── industrial-651c80e60820051e74fd0948_industrial-design-5.webp
+│   │   │   ├── industrial-651c80e60c5a7f3854093276_industrial-design-3.webp
+│   │   │   ├── industrial-651c80e6950d6222fdab0092_industrial-design-4-p-1080.webp
+│   │   │   ├── industrial-651c80e6950d6222fdab0092_industrial-design-4.webp
+│   │   │   ├── industrial-651c80e6c5fe9a38503219af_industrial-design-2.webp
+│   │   │   ├── industrial-651c80e6ca764ac9eec5fe41_industrial-design-1.webp
+│   │   │   ├── maximalism-64f47146f4808529ee01598b_maximalism-design-contemporary-concept-interpretation.webp
+│   │   │   ├── maximalism-651c8be005e41b56aae76f6e_maximalism-1.webp
+│   │   │   ├── maximalism-651c8be085bd607941e1f5ec_maximalism-6.webp
+│   │   │   ├── maximalism-651c8be09d81b9ae2acec0b4_maximalism-4.webp
+│   │   │   ├── maximalism-651c8be0c7a7f650f1c36fe2_maximalism-3.webp
+│   │   │   ├── maximalism-651c8be0c7a7f650f1c36fe9_maximalism-2.webp
+│   │   │   ├── mid-century-modern-64f47146e5685905adf2864a_postmodernism-contemporary-futurism.webp
+│   │   │   ├── mid-century-modern-651c843b4642fda41bb84c57_postmodernism-1.webp
+│   │   │   ├── mid-century-modern-651c843c821c693bc4881ec4_postmodernism-3.webp
+│   │   │   ├── mid-century-modern-651c8ab80c5a7f38541449d3_mid-century-modern-3.webp
+│   │   │   ├── mid-century-modern-651c8ab86a856b0f0d4c03f6_mid-century-modern-1.webp
+│   │   │   ├── mid-century-modern-651c8ab876bdb1c73c88d6a1_mid-century-modern-2.webp
+│   │   │   ├── minimalism-64f47146d38f6886e57166bc_minimalism-contemporary-concept-contemporary-interpretation.webp
+│   │   │   ├── minimalism-651c8d0b518015eb04fd9cd2_7-minimalism.webp
+│   │   │   ├── minimalism-651c8d0b6a856b0f0d4e81e8_2-minimalism.webp
+│   │   │   ├── minimalism-651c8d0b6a856b0f0d4e81ee_3-minimalism.webp
+│   │   │   ├── minimalism-651c8d0b7994a3d05d55b33c_6-minimalism.webp
+│   │   │   ├── minimalism-651c8d0be21ed1b31c1b01c3_1-minimalism.webp
+│   │   │   ├── postmodernism-64f47146e5685905adf2864a_postmodernism-contemporary-futurism.webp
+│   │   │   ├── postmodernism-651c843b4642fda41bb84c57_postmodernism-1.webp
+│   │   │   ├── postmodernism-651c843c821c693bc4881ec4_postmodernism-3-p-800.webp
+│   │   │   ├── postmodernism-651c843c821c693bc4881ec4_postmodernism-3.webp
+│   │   │   ├── scandinavian-64f471467a05afc618108ae2_scandinavian-design-contemporary-interpretation.webp
+│   │   │   ├── scandinavian-651c867a027e38c699d751ca_scandinavian-design-7.webp
+│   │   │   ├── scandinavian-651c867a230e07d5b1162854_scandinavian-design-6.webp
+│   │   │   ├── scandinavian-651c867a821c693bc48af463_scandinavian-design-8.webp
+│   │   │   ├── scandinavian-651c867a9a743fdde6343cd9_scandinavian-design-2.webp
+│   │   │   ├── scandinavian-651c867a9a743fdde6343ce4_scandinavian-design-5.webp
+│   │   │   ├── sustainable-eco-friendly-64db8d1659fa7d8ee204649a_full.olkowski-integral-urban-house-sustainable-architecture-berkeley-usa-1973.webp
+│   │   │   ├── sustainable-eco-friendly-64db8d1659fa7d8ee204649e_full.bill-dunster-bedzed-eco-friendly-architecture-london-uk-2002.webp
+│   │   │   ├── sustainable-eco-friendly-64f47146d23cc794394e3c9d_sustainable-eco-friendly-design.webp
+│   │   │   ├── sustainable-eco-friendly-651c824603bb8d3d264c33cc_sustainable-eco-friendly-design-3.webp
+│   │   │   ├── sustainable-eco-friendly-651c824662c8fbff74980841_sustainable-eco-friendly-design-6.webp
+│   │   │   └── sustainable-eco-friendly-651c8246e21ed1b31c0e0a8e_sustainable-eco-friendly-design-4.webp
+│   │   └── zodiac
+│   │       ├── aquarius.webp
+│   │       ├── aries.webp
+│   │       ├── cancer.webp
+│   │       ├── capricorn.webp
+│   │       ├── gemini.webp
+│   │       ├── leo.webp
+│   │       ├── libra.webp
+│   │       ├── pisces.webp
+│   │       ├── sagittarius.webp
+│   │       ├── scorpio.webp
+│   │       ├── taurus.webp
+│   │       └── virgo.webp
+│   ├── js
+│   │   ├── jquery-3.5.1.min.js
+│   │   ├── jquery.pjax.min.js
+│   │   └── webflow.ee7ce4c794739b6ac6139dc3f51745e4.js
+│   └── lottie
+│       ├── 64c7d4bace5a342dfc11a2c8_center-focused-ivy-growth-ui-page-break-animation.lottie
+│       ├── 64c7d75deb70a956cf7fad2b_end-focused-ivy-growth-animation-ui.lottie
+│       ├── 64c7da1f0da194efeea8d9da_radiant-diamond-pair-left.lottie
+│       ├── 64c7da1fbfd0c5d5d665db1d_radiant-diamond-pair-right.lottie
+│       ├── 64c92486c8b4dfda6d81153e_august-style-brand-text.lottie
+│       ├── 64c9434d8a60ceb743414e7a_rainbow-arch-menu-ui.lottie
+│       ├── 64c9d5cfefe08e9b264708aa_august-style-logo-ui-animation.lottie
+│       ├── 64c9eb594fc24b0a1d62b26b_geometric-ground-plant-animation.lottie
+│       ├── 64ca139f5011fbc998841b7d_rainbow-bridge.lottie
+│       ├── 64caa237a47b190a732ddbef_jungle-leaf-art-deco-animated-heading-callout-UI.lottie
+│       ├── 64dae6a8ca772baa81f62fbd_calligraphic-spiral-diamond.lottie
+│       ├── 64daebf91d2af4475d9e372f_ornate-calligraphic-page-heading.lottie
+│       ├── 64daf162f0fa5b555f53dcca_left-turkey-fan.lottie
+│       ├── 64daf55b19c92a97ddd08337_left-peacock-fan.lottie
+│       ├── 64daf55bb56ed775d9564a27_peacock-fan.lottie
+│       ├── 64daf55bbf49c009ffdc57bc_right-peacock-fan.lottie
+│       ├── 64f103d7260271aab82f4160_today-ui-animation.lottie
+│       ├── 64f191c78fa7cb48994834c1_rest-of-this-week-daily-chart-reading-ui-animation.lottie
+│       ├── 64f191c7a440914b4ad3c619_archives-daily-chart-reading-ui-animation.lottie
+│       ├── 64f1bde272f97d02aeb74914_horoscopes-ui-animation.lottie
+│       ├── 64f456554266acf96b92b376_art-deco.lottie
+│       ├── 64f456557a05afc618fb6cb9_brutalism-ui.lottie
+│       ├── 64f45656233beaba8191104a_mid-century-modern-ui.lottie
+│       ├── 64f456563a44b053aacd2825_scandinavian-design-ui.lottie
+│       ├── 64f4565653833484b1551eea_biophilic-design-ui.lottie
+│       ├── 64f4565653833484b1551f2f_minimalism-ui.lottie
+│       ├── 64f456566c3460284808df97_maximalism-ui.lottie
+│       ├── 64f456568a3d2877d18b6c76_sustainable-design-ui.lottie
+│       ├── 64f45656c6cb32a56475581b_bauhaus-ui.lottie
+│       ├── 64f45656c9a2047edb9c178c_pop-art-ui.lottie
+│       ├── 64f45656d38f6886e55da7eb_industrial-design-ui.lottie
+│       ├── 64f45656f762b614242a5b03_postmodernism-ui.lottie
+│       ├── 65052b0219ad47b83f793734_aries.lottie
+│       ├── 65053180c5b543a1ec9d7f6b_todays-animated-ui-callout.lottie
+│       ├── 651042600f4265348562f868_astro-planner-energy-forecast-ui.lottie
+│       └── 6512b48c40949bdca6eb1238_retro-art-deco-fan-animated-ui.lottie
+├── astrology-reading
+│   ├── energy-planning
+│   │   ├── mid-week-integrate.html
+│   │   ├── start-week-aspects.html
+│   │   └── weekend-perfect.html
+│   ├── improve-life
+│   │   ├── change-your-outlook.html
+│   │   ├── growth-through-introspection.html
+│   │   └── internal-external-personal-growth.html
+│   ├── significant-aspects
+│   │   ├── chart-analysis-friday-10-13-2023-page1.html
+│   │   ├── chart-analysis-friday-10-13-2023-page2.html
+│   │   ├── chart-analysis-friday-10-13-2023-page3.html
+│   │   ├── chart-analysis-friday-10-13-2023-page4.html
+│   │   ├── chart-analysis-friday-10-13-2023.html
+│   │   ├── chart-analysis-friday-10-20-2023-page1.html
+│   │   ├── chart-analysis-friday-10-20-2023-page2.html
+│   │   ├── chart-analysis-friday-10-20-2023-page3.html
+│   │   ├── chart-analysis-friday-10-20-2023-page4.html
+│   │   ├── chart-analysis-friday-10-20-2023.html
+│   │   ├── chart-analysis-monday-10-16-2023-page1.html
+│   │   ├── chart-analysis-monday-10-16-2023-page2.html
+│   │   ├── chart-analysis-monday-10-16-2023-page3.html
+│   │   ├── chart-analysis-monday-10-16-2023-page4.html
+│   │   ├── chart-analysis-monday-10-16-2023.html
+│   │   ├── chart-analysis-monday-10-23-2023-page1.html
+│   │   ├── chart-analysis-monday-10-23-2023-page2.html
+│   │   ├── chart-analysis-monday-10-23-2023-page3.html
+│   │   ├── chart-analysis-monday-10-23-2023-page4.html
+│   │   ├── chart-analysis-monday-10-23-2023.html
+│   │   ├── chart-analysis-saturday-10-14-2023-page1.html
+│   │   ├── chart-analysis-saturday-10-14-2023-page2.html
+│   │   ├── chart-analysis-saturday-10-14-2023-page3.html
+│   │   ├── chart-analysis-saturday-10-14-2023-page4.html
+│   │   ├── chart-analysis-saturday-10-14-2023.html
+│   │   ├── chart-analysis-saturday-10-21-2023-page1.html
+│   │   ├── chart-analysis-saturday-10-21-2023-page2.html
+│   │   ├── chart-analysis-saturday-10-21-2023-page3.html
+│   │   ├── chart-analysis-saturday-10-21-2023-page4.html
+│   │   ├── chart-analysis-saturday-10-21-2023.html
+│   │   ├── chart-analysis-sunday-10-15-2023-page1.html
+│   │   ├── chart-analysis-sunday-10-15-2023-page2.html
+│   │   ├── chart-analysis-sunday-10-15-2023-page3.html
+│   │   ├── chart-analysis-sunday-10-15-2023-page4.html
+│   │   ├── chart-analysis-sunday-10-15-2023.html
+│   │   ├── chart-analysis-sunday-10-22-2023-page1.html
+│   │   ├── chart-analysis-sunday-10-22-2023-page2.html
+│   │   ├── chart-analysis-sunday-10-22-2023-page3.html
+│   │   ├── chart-analysis-sunday-10-22-2023-page4.html
+│   │   ├── chart-analysis-sunday-10-22-2023.html
+│   │   ├── chart-analysis-thursday-10-19-2023-page1.html
+│   │   ├── chart-analysis-thursday-10-19-2023-page2.html
+│   │   ├── chart-analysis-thursday-10-19-2023-page3.html
+│   │   ├── chart-analysis-thursday-10-19-2023-page4.html
+│   │   ├── chart-analysis-thursday-10-19-2023.html
+│   │   ├── chart-analysis-thursday-10-26-2023-page1.html
+│   │   ├── chart-analysis-thursday-10-26-2023-page2.html
+│   │   ├── chart-analysis-thursday-10-26-2023-page3.html
+│   │   ├── chart-analysis-thursday-10-26-2023-page4.html
+│   │   ├── chart-analysis-thursday-10-26-2023.html
+│   │   ├── chart-analysis-tuesday-10-10-2023-page1.html
+│   │   ├── chart-analysis-tuesday-10-10-2023-page2.html
+│   │   ├── chart-analysis-tuesday-10-10-2023-page3.html
+│   │   ├── chart-analysis-tuesday-10-10-2023-page4.html
+│   │   ├── chart-analysis-tuesday-10-10-2023.html
+│   │   ├── chart-analysis-tuesday-10-17-2023-page1.html
+│   │   ├── chart-analysis-tuesday-10-17-2023-page2.html
+│   │   ├── chart-analysis-tuesday-10-17-2023-page3.html
+│   │   ├── chart-analysis-tuesday-10-17-2023-page4.html
+│   │   ├── chart-analysis-tuesday-10-17-2023.html
+│   │   ├── chart-analysis-tuesday-10-24-2023-page1.html
+│   │   ├── chart-analysis-tuesday-10-24-2023-page2.html
+│   │   ├── chart-analysis-tuesday-10-24-2023-page3.html
+│   │   ├── chart-analysis-tuesday-10-24-2023-page4.html
+│   │   ├── chart-analysis-tuesday-10-24-2023.html
+│   │   ├── chart-analysis-wednesday-10-11-2023-page1.html
+│   │   ├── chart-analysis-wednesday-10-11-2023-page2.html
+│   │   ├── chart-analysis-wednesday-10-11-2023-page3.html
+│   │   ├── chart-analysis-wednesday-10-11-2023-page4.html
+│   │   ├── chart-analysis-wednesday-10-11-2023.html
+│   │   ├── chart-analysis-wednesday-10-18-2023-page1.html
+│   │   ├── chart-analysis-wednesday-10-18-2023-page2.html
+│   │   ├── chart-analysis-wednesday-10-18-2023-page3.html
+│   │   ├── chart-analysis-wednesday-10-18-2023-page4.html
+│   │   ├── chart-analysis-wednesday-10-18-2023.html
+│   │   ├── chart-analysis-wednesday-10-25-2023-page1.html
+│   │   ├── chart-analysis-wednesday-10-25-2023-page2.html
+│   │   ├── chart-analysis-wednesday-10-25-2023-page3.html
+│   │   ├── chart-analysis-wednesday-10-25-2023-page4.html
+│   │   ├── chart-analysis-wednesday-10-25-2023.html
+│   │   └── index.html
+│   └── today
+│       ├── chart-briefing.html
+│       ├── chart-briefing?54bfa96d_page=1.html
+│       ├── chart-briefing?54bfa96d_page=2.html
+│       ├── chart-briefing?54bfa96d_page=3.html
+│       ├── chart-briefing?54bfa96d_page=4.html
+│       ├── create-positive-life-changes.html
+│       ├── energy-planner.html
+│       ├── horoscope
+│       │   ├── aquarius
+│       │   │   └── collection.html
+│       │   ├── aries
+│       │   │   ├── career-money-finances.html
+│       │   │   ├── collection.html
+│       │   │   ├── love-romance-prediction.html
+│       │   │   ├── venus-mars-influence-beauty-sex.html
+│       │   │   └── what-wear-clothing.html
+│       │   ├── cancer
+│       │   │   └── collection.html
+│       │   ├── capricorn
+│       │   │   └── collection.html
+│       │   ├── gemini
+│       │   │   └── collection.html
+│       │   ├── leo
+│       │   │   └── collection.html
+│       │   ├── libra
+│       │   │   └── collection.html
+│       │   ├── pisces
+│       │   │   └── collection.html
+│       │   ├── sagittarius
+│       │   │   └── collection.html
+│       │   ├── scorpio
+│       │   │   └── collection.html
+│       │   ├── taurus
+│       │   │   └── collection.html
+│       │   └── virgo
+│       │       └── collection.html
+│       └── horoscopes.html
+├── august-style.webflow.be7dfad52.min.css
+├── check_missing_assets.py
+├── clean_empty_sections.py
+├── download_assets.sh
+├── extract_urls.py
+├── fix_art_deco_images.py
+├── fix_artist_interpretations.py
+├── fix_cache_issues.py
+├── fix_chart_analysis_links.py
+├── fix_chart_placeholders.py
+├── fix_cms_content.py
+├── fix_collection_header_images.py
+├── fix_conditional_content.py
+├── fix_corrupt_zodiac_images.py
+├── fix_daily_chart_content.py
+├── fix_external_links.py
+├── fix_horoscope_collections.py
+├── fix_horoscope_visibility.py
+├── fix_missing_html_extensions.py
+├── fix_skeleton_images.py
+├── fix_specific_zodiac_images.py
+├── fix_subdirectory_paths.py
+├── fix_targeted_horoscopes.py
+├── fix_timeline_interpretations.py
+├── fix_zodiac_images.py
+├── index.html
+├── learn-design-trends
+│   ├── art-deco-evolving-maximalism-geometry.html
+│   ├── bauhaus.html
+│   ├── biophilic-design-coexist-nature.html
+│   ├── brutalism.html
+│   ├── industrial-design-renewed-popularity.html
+│   ├── maximalism.html
+│   ├── mid-century-modern.html
+│   ├── minimalism-departing-legacy.html
+│   ├── modern-relevant-art-history
+│   │   ├── art-deco-visual-timeline.html
+│   │   ├── bauhaus-visual-timeline.html
+│   │   ├── biophilic-visual-timeline.html
+│   │   ├── brutalism-visual-timeline.html
+│   │   ├── industrial-visual-timeline.html
+│   │   ├── maximalism-visual-timeline.html
+│   │   ├── mid-century-modern-visual-timeline.html
+│   │   ├── minimalism-visual-timeline.html
+│   │   ├── pop-art-visual-timeline.html
+│   │   ├── postmodernism-visual-timeline.html
+│   │   ├── scandinavian-visual-timeline.html
+│   │   └── sustainable-eco-friendly-visual-timeline.html
+│   ├── pop-art-transformative-return.html
+│   ├── postmodernism.html
+│   ├── scandinavian-design.html
+│   └── sustainable-eco-friendly.html
+├── replace_corrupt_images.py
+├── replace_urls.py
+├── repomix-output.xml
+├── search_dropbox_images.py
+├── start_local_server.py
+├── the-style-spectrum.html
+├── todays-astrology-readings.html
+└── urls.txt
+
+39 directories, 1494 files
+
+Hidden project directories:
+./.ai.dev-resources
+./.cursor
+./.notes
+./.vscode
+
+Hidden project files:
+./.aider.conf.yml
+./.example.env
+./.gitignore

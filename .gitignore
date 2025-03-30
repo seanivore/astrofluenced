@@ -1,5 +1,60 @@
+# System files
+.DS_Store
+*.swp
+*~
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Backup files
+*.bak
+*.backup
+*-old
+*-backup
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
 # Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local server
+*.pid
 
 # Virtual environment
 venv/
@@ -16,19 +71,14 @@ __pycache__/
 # Dependencies
 node_modules/
 npm-debug.log*
-*.log
 *.lock
 
 # OS files
-.DS_Store
 .DS_Store?
 .Spotlight-V100
-.Trashes
 ehthumbs.db
-Thumbs.db
 
 # IDE/Editor files
-*.swp
 *.swo
 
 # Rust specific
